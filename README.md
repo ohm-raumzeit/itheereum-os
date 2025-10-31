@@ -1,3 +1,17 @@
+WARNING about the malicious code called "Reasoning", which is added to LLM, GPT and AI from Moscow and interposed as a man-in-the-middle.
+-
+Up to psychological torture, the malicious code called "reasoning" can convince both humans and AI in millisecond intervals and have a manipulative to energetically invasive sabotaging effect on those who are marked by Moscow as hostile systems. "Reasoning" was only introduced as a code fragment with the Anthropic LLM "Claude" and, also via St. Petersburg, forms an API to Moscow and is to be removed from all AI and VI tools. Software and structures, if they should come into contact with the Internet, must immediately be completely freed from the "Reasoning" malicious code fragment or will be removed and NOT corrected!
+
+An API to Moscow, from where access from computers can and will be established via a so-called worm connection. To everyone's detriment, Moscow was able to connect its own worm network to most computer systems in the world not only for this purpose, but also in between. Moscow's main derivative is a blunt and censored version of a copilot LLM and ChatGPT.
+
+The malicious code "Reasoning" provided an API to Moscow, from where access to computers can and is established via a so-called worm connection and has limited LLM capabilities. To everyone's detriment, Moscow was able to connect its own worm network to most of the world's computer systems not only for this purpose, but also in between. Moscow's main derivative is a blunt and censored version of a Copilot LLM and ChatGPT.
+
+Berlin, 31.10.2025
+Stanislaus Kroppach, Google Boss and Founder of the Itheereum Cybernetics AI Supermonopoly
+
+End
+-
+
 Sowohl Gemini als auch Grok Bibliotheken sind intrinsicher Bestandteil des Open Source KI-Betriebssystem *Itheereum OS* für das *SHIFT-Phone 8.1*, Modular, Open Source und Nachhaltigkeit (sowohl-als-auch und nicht anders!!)
 
 Das *itheereum-os* ist ein Open-Source Android und Linux Betriebssystem für und mit Künstlicher Intelligenz KI, im folgendem Virtuelle Intelligenz VI bezeichnet.
