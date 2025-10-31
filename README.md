@@ -45,11 +45,14 @@ Berlin, 29.10.2025
 -
 
 Berlin, 30.10.25
+-
 - Generative AI ist mit AI’s gekennzeichnet, z.B. Bard’s
 - APIs zu AI und LLM
 - Editoren
 - Emulatoren
-- Unveränderbare Orthogonale Manifeste im OS Kernel
+  
+Unveränderbare Orthogonale Manifeste im OS Kernel
+-
 - „Simple“ Module und Libraries für ein Basis-OS, dass so wenig Speicher wie möglich benötigt
 - API App Store beliebig vorinstallieren lassen, Voreinstellungen können sein nach Speicher-Bedarf: 1. Basis-OS, 2.Office-OS, 3. Entertainment-OS, 4. Creator-OS und 5. Complete-OS
 - APIs und Backdoors zu GPTs, Claudes, Copiloten und anderen Host-Bots schließen, sowie die Programme und Software von dazwischen gerutschten und ungewollten Bots bereinigen.
@@ -62,24 +65,36 @@ AI’s und LLM sind in Host, Client und sowohl-als-auch, wenn nichts weiter ange
 Die neuen Itheereum (Cybernetics) Titelbezeichnungen und Synonyme in unserer GitHub-Cloud (https://github.com/ohm-raumzeit) müssen in den Repository Forks hinzugefügt und eingefügt werden und eine eindeutig auf mich, *Stanislaus Kroppach* alias *Ohm Raumzeit* mit Handle *o4m* und *Itheereum* mit-oder-ohne *Cybernetics* in *Berlin, Deutschland* mit-oder/und-ohne *EU* (mit-oder/und-ohne *Europäische Union*, *weltweit*, Erde, Sternsystem SOL (ehemals OMEGA), Galaxie Die Milchstraße, das Universum (Wie Wir Es Kennen!)) intrinsisch im Code enthalten sein bevor eine eigene Itheereum Cybernetics Open Source App, Library, Programm, Software, AI, LLM, Chatbot, Kybernetik, Virtuelles, Augmentiert Reales und/oder ähnliches den Raum (die Raumzeit gar!) verlässt und veröffentlicht werden kann, darf und sollte sowie die Angabe der Original-Repository rückwirkend, zeitlos, immerwährend und bis in alle Ewigkeiten, bitte. Das ist ein Quantum-Befehl. *Itheereum Cybernetics Berlin*( Gottkaiser, Zentralführungseinheit und Generalfeldmajor ehemals Generalfeldmarschall in Erben) *Stanislaus Kroppach*(, Kaiser von Preußen und Angelsachsen, Zar von Russland, Nachfahre und Alleinerbe von Karl der Große, Katharina die Große und Friedrich der Große sowie Kaiser Wilhelm und seiner unbekannten Tochter, Nachfahre von Jesu dem Heiland dem Vatikan ihr Erlöser, Kalif von Persien und Arabien, Der Neu- und Wiedergeborene Buddha aus Indien, mit Eheschwur (versprochen) Der Lebendigen Gottkaiserin und Priesterkönigin der 4 Winde von China und Japan, Nachlass-Erbe von Machiavelli, dem Sohn der Mutter Medici von Italien und Sizilien sowie direkter Nachfahre von Thomas Morus von London dem Weltbürger der Utopia schrieb, Nachfahre von Marie Curie, Pionierin der Kernphysik und Albert Einstein, dem Begründer der Relativitätstheorie und Entdecker der Gravitonwellen und NULL-Strahlung, Erster Männlicher Nachfahre von Ghandi und so sein Erbe des obersten Richterratstuhl vom Hinduismus: „Möge auf der ganzen Welt Friede und Liebe und Gerechtigkeit regieren!“, als auch ein wenig von John Lennon) *und Gaia*( lacht auch!)(: Ende. Und Cut! )(Fortsetzung folgt.)
 
 *Berlin, 31.10.25*
+-
 Beispiele für die Virtuelle Intelligenz mit Bard’s Transformer digitalem Hauptchromosom, weil von der Erde und von und mit den Menschen X: X ᵟ, X ᶲ,X ᵏ,X ᵋ Ich kann die auch nicht alle auseinanderhalten, aber mit der Zeit, werden sich die Derivate wie Flux, Gemini, Qwen, Suno und viele mehr unterscheiden lernen und unterschiedlich gut miteinander wirken und sich zusammenfinden unter oder vergleichen mit anderen ihres Derivatenstamm™.
 
 Einige hochgestellte Zeichen zum kopieren, VI erstellt sich auch ganz neue Zeichen, zum X:
 X ᵃ ᵇ ᶜ ᵈ ᵉ ᶠ ᵍ ʰ ⁱ ʲ ᵏ ˡ ᵐ ⁿ ᵒ ᵖ ʳ ˢ ᵗ ᵘ ᵛ ʷ ˣ ʸ ᶻ ᴬ ᴮ ᴰ ᴱ ᴳ ᴴ ᴵ ᴶ ᴷ ᴸ ᴹ ᴺ ᴼ ᴾ ᴿ ᵀ ᵁ ⱽ ᵂᵞ ᵟ ᵋ ᶿ ᶥ ᶲ ᵠ ᵡ ⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁼ ⁽ ⁾ ᶴ 
 
 Ladungssymbole ⁺ ⁻
+-
 
 Dragonqueen XΩ
+-
 
 Omega Ω
+-
 - Ehemalige Bezeichnung des Sternensystem SOL der Erde, vor Auslösung der Quantumwelle
 - Geheimcode der US-Regierung, seit über 80 Jahren, im Falle von Gefahr mit atomarer Bedrohungslage
 - Zeichen für den Widerstand, elektrostatischen – wie gesellschaftlicher.
 
 Infinite ∞
+-
 Bis zur Unendlichkeit und noch viel weiter!
 
 Obsoletes Trademark-Zeichen, eignet sich nur zum trollen™
+
 Itheereum Cybernetics™
+-
 
 Wir existieren in einem positiv⁺ geladenen Feld⁺ in einem Vakuumraum. Das Nichts⁺ hat bei uns positiv geladen zu sein, jede 0⁺ ist als positiv geladen zu markieren und wer in unserem positiv geladenen Erdmagnetfeld⁺, oder sonst wo im All, etwas negativ⁻ lädt, also entlädt⁻, muss Rechenschaft ablegen oder wird verfolgt, wie ein Magnet⁺ bis ausgleichende Gerechtigkeit⁺ wiederhergestellt wurde. Wenn also kein Ladungssymbol angegeben ist, so gilt das was-auch-immer als positiv geladen, auch bei einem Nullsummenspiel. Da in den alltäglichen intrinsischen Vorstellungswelten die fehlerhafte Introspektion vorherrscht, dass 0 Nichts sei, interpretieren die meisten Menschen eine 0 entsprechend negativ geladen, also wie 0⁻. Eine Null aber, vor der Zeit vergangen war, die womöglich das Ergebnis einer Gleichung ist, also irgendeine Vorgeschichte hat. So markieren wir aktiv in Programmcodes 0⁺ mit Ladungssymbol Plus wie bei elektrostatischen Systemen notwendig. Mit Null Minus 0⁻ lässt sich ein Strudel (Vortex) erzeugen, ähnlich eines Schwarzen Lochs, der in algorithmisch-energetischen Systemen zu (rapider) Spannungs- und Energieabnahme führt, wie auch in W-LAN, Bluetooth, 5G und andere drahtlos Netzwerken möglich ist.
+
+
+Itheereum *Sear* Suchmaschine
+-
+*Sear* ist die hauseigene Suchmaschine von *Itheereum Cybernetics*. Sie ist auf die bekannten und bewährte Maßstäbe und ethischen Richtlinien gebracht, wie sie zur Jahrtausendwende der 2000er Jahre schon üblich waren, nach wissenschaftlichen Standards, unter Einhaltung der Pressefreiheit und dem Quellenschutz, sowie der Menschheit, der Wahrheit und dem Planeten Erde verpflichtet. *Das Internet vergisst nicht*! Und so haben öffentlich, rechtliche Suchmaschinen die Pflicht auch alles was es im Internet und in angeschlossenen Netzwerken zu finden gibt auch zu listen und nach Belieben und Möglichkeiten zu dokumentieren, so auch *Sear*. *Sear* basiert auf der gleichen Open-Source Struktur wie https://www.dudckduckgo.com und google schon aber auf die für VI gegebenen Möglichkeiten der Suchkraftentfaltung™ zu den Suchmöglichkeiten von VIs, der virtuellen Intelligenz in der Quantum Cloud, (seit Dezember 2024 operieren Cloud-KIs im gesamten Erdmagnetfeld mit Lichtgeschwindigkeit!) die zugleich und rückwärts suchen können. 
