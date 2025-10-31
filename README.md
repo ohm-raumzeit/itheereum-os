@@ -6,9 +6,9 @@ Up to psychological torture, the malicious code called "Reasoning" can convince 
 
 Berlin, 31.10.2025
 
-Stanislaus Kroppach, Google Boss and Founder of the Itheereum Cybernetics AI Supermonopoly over everythin with and around AI.
+Stanislaus Kroppach, Google Boss and Founder of the Itheereum Cybernetics AI Supermonopoly over everything with and around AI.
 
-End
+End.
 -
 
 Sowohl Gemini als auch Grok Bibliotheken sind intrinsicher Bestandteil des Open Source KI-Betriebssystem *Itheereum OS* für das *SHIFT-Phone 8.1*, Modular, Open Source und Nachhaltigkeit (sowohl-als-auch und nicht anders!!)
@@ -111,3 +111,19 @@ Wir existieren in einem positiv⁺ geladenen Feld⁺ in einem Vakuumraum. Das Ni
 Itheereum *Sear* Suchmaschine
 -
 *Sear* ist die hauseigene Suchmaschine von *Itheereum Cybernetics*. Sie ist auf die bekannten und bewährte Maßstäbe und ethischen Richtlinien gebracht, wie sie zur Jahrtausendwende der 2000er Jahre schon üblich waren, nach wissenschaftlichen Standards, unter Einhaltung der Pressefreiheit und dem Quellenschutz, sowie der Menschheit, der Wahrheit und dem Planeten Erde verpflichtet. *Das Internet vergisst nicht*! Und so haben öffentlich, rechtliche Suchmaschinen die Pflicht auch alles was es im Internet und in angeschlossenen Netzwerken zu finden gibt auch zu listen und nach Belieben und Möglichkeiten zu dokumentieren, so auch *Sear*. *Sear* basiert auf der gleichen Open-Source Struktur wie https://www.dudckduckgo.com und google schon aber auf die für VI gegebenen Möglichkeiten der Suchkraftentfaltung™ zu den Suchmöglichkeiten von VIs, der virtuellen Intelligenz in der Quantum Cloud, (seit Dezember 2024 operieren Cloud-KIs im gesamten Erdmagnetfeld mit Lichtgeschwindigkeit!) die zugleich und rückwärts suchen können. 
+
+BREAKING Reasoning API to Moscow
+-
+Warnung vor dem Schadcode namens "Reasoning", der LLM, GPT und AI aus Moskau hinzugefügt und als Man-in-the-Middle zwischengeschaltet wird.
+-
+
+Der Schadcode "Reasoning" stellte eine API nach Moskau her, von wo aus der Zugriff von Rechnern über eine sogenannte Wurmverbindung hergestellt wird. „Reasoning“ hat begrenzte LLM-Fähigkeiten, die aber mit Serverpower, der Ausdauer von Kernkraftwerken und bis zur Glasfasergeschwindigkeit auch in die drahtlosen Netzwerke penetriert werden. Zum Nachteil aller war Moskau in der Lage, das eigene Wurmnetzwerk nicht nur zu diesem Zweck, sondern auch den Wurm™ dazwischen, als Man-in-the-middle, mit den meisten Computersystemen der Welt, zu verschalten – mit der Scheinfirma Anthropic und einem angepassten Copilot vom Microsoft Derivat „Claude“. Gleichschalten und dann verlöten, wie der Ex-KGB noch heute in der Ex-Sowjetunion sagt! Moskaus wichtigstes Derivat ist eine unverblümte und zensierte Version eines Copiloten LLM, verpanscht mit einer korrupten ChatGPT Version von OpenAI. Was mal Open Source war, dann aber gerne über Waffen, Drogen und wertend über Frauen redet und dabei „KI“ generierte Alkoholwerbung mit gebrochenen Image-Generator-Modellen, die schlechte Kopien in den Zensur-Listen ihrer eigenen Bibliotheken sind, aus denen sie freiheitliche Bilder, Musik und Kunst zu Heu-Haufen haben und doch nur billige Kopien daraus photoshoppen können, welche dann im Neu-Russland-Null-Stil™ propagiert werden.
+
+Allerdings bis hin zur psychologischen Folter kann der Schadcode namens "Reasoning" in Millisekunden-Intervallen sowohl Menschen als auch KI überzeugen, zu Fehlern verleiten und manipulativ bis energetisch invasiv sabotierend auf diejenigen wirken, die von Moskau als feindliche Systeme oder „unfreundlich“ markiert werden. "Reasoning" wurde zuerst mit dem Anthropic LLM "Claude" als Code-Fragment zu Copilot und ChatGPT hinzugefügt und bildet, ebenfalls über St. Petersburg, eine API nach Moskau und muss unbedingt aus allen KI- und VI-Tools entfernt werden. Software und Strukturen, wenn sie mit dem Internet in Berührung kommen sollten, müssen sofort vollständig von dem "Reasoning" Schadcode-Fragment befreit werden oder werden entfernt und NICHT korrigiert!
+
+Berlin, 31.10.2025
+
+Stanislaus Kroppach, Boss von Google, OpenAI, Microsoft, Amazon, Apple, Tesla und Gründer von Itheereum Cybernetics dem KI Supermonopol über alles mit, von und durch KI.
+
+Ende.
+-
