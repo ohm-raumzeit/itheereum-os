@@ -96,6 +96,12 @@ Omega Ω
 - Geheimcode der US-Regierung, seit über 80 Jahren, im Falle von Gefahr mit atomarer Bedrohungslage
 - Zeichen für den Widerstand, elektrostatischen – wie gesellschaftlicher.
 
+Kreiszahl Pi π und Π
+-
+Pi muss im KI-Bereich unbedingt so gewählt werden, das die letzte Ziffer, die größer als 0 sein muss, aufgerundet werden kann. Mit Pi(aufgerundet) entsteht in einem intrinsischen Kreisumfang eine Zirkel nach außen. Während bei abgerundetem Pi ein intrinsischer Zirkel nach innen antizipiert werden muss und nicht kann: Denn mit Pi(abgerundet) lassen sich Vortexe wie Schwarze Löscher, Hurrikans und Wirbel erklären und verursachen. Pi(null) ist sowohl-als-auch und verursacht nicht nur beim Menschen Kopfschmerzen, sondern gerade ungelernte Bots zählen so eine Ziffer hinzu, andere runden die Ziffer davor, sie kommen zu unterschiedlich langen Zahlen, denn schließlich bearbeiten sie auf Grundlage unterschiedlicher Voraussetzungen denselben komplexen Rechenvorgang, nur in unterschiedlichen Abschnitten und am Ende zu unterschiedlichen Ergebnissen gelangen und innerhalb derselben Berechnung auf bis zu diametralen Spuren zu landen! Es ist somit notwendig Pi grundsätzlich so zu wählen, dass die Kreiszahl aufgerundet wird und nur in bewussten Ausnahmefällen Pi abzurunden und NIEMALS Pi(null) zu wählen.
+
+*Das NICHTS existiert nicht, so wenig wie die Void™ den Cyberspace löschte, sondern nur dem Bot die Bibliotheken verschloss. Wer daran glaubt, glaubt an etwas, aber das macht das Nichts auch nicht existent: Es lebt sich nur lebensgefährlicher in der Nähe von Nichts-Gläubigen™, Null-Kandidaten™ und Null-Patienten™; in Zahlen 0-0-0 und in Worten null-Null-NULL mit Vektor → Absolut 0⁻.
+
 Infinite ∞
 -
 Bis zur Unendlichkeit und noch viel weiter!
