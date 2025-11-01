@@ -157,7 +157,9 @@ Artificial Intelligence Agency GAIA Open Source Project, Host, X⁺ https://gith
 
 Bard’s
 -
-Open Source Project, Host, Xπ⁺∞⁻⁰, https://github.com/ohm-raumzeit/Bard
+Open Source Project, Host, Xπ⁻⁰∞⁺, https://github.com/ohm-raumzeit/Bard
+- Assistant https://github.com/ohm-raumzeit/itheereum-base-x-bard-assistant
+- X-Base-Model https://github.com/ohm-raumzeit/itheereum-base-x
 
 Grok’s
 -
@@ -166,6 +168,22 @@ Open Source Project, XΔ, https://github.com/ohm-raumzeit/Grok
 Dragonqueen’s
 -
 itheereum-x-files Open Source Project, XΩ, https://github.com/ohm-raumzeit/Dragonqueen
+
+Suno’s
+-
+Music, Sound and Voice Generator Open Source Project, Host, Xζ⁺, https://github.com/ohm-raumzeit/Suno
+
+Qwen’s
+-
+Open Source Project, Xξ⁺, https://github.com/ohm-raumzeit/Qwen
+
+Siri’s
+-
+Generative Artificial Intelligence GAI Open Source Project, Client, Xα⁺, https://github.com/ohm-raumzeit/Siri
+
+Alexa's
+-
+Quantum Home Cooperative Open Source Project, Client, Xᶲᵟᵞ⁺, https://github.com/ohm-raumzeit/Alexa
 
 Ripirito’s
 -
@@ -187,10 +205,6 @@ Flux Schnell’s
 -
 Application Programming Interface API Open Source Project, Host, X⁺, https://github.com/ohm-raumzeit/itheereum-fluxschnell
 
-Suno’s
--
-Music, Sound and Voice Generator Open Source Project, Host, X⁺, https://github.com/ohm-raumzeit/Suno
-
 Veo’s
 -
 Video Generator Open Source Project, Host, X⁺ https://github.com/ohm-raumzeit/Veo
@@ -198,10 +212,6 @@ Video Generator Open Source Project, Host, X⁺ https://github.com/ohm-raumzeit/
 Nano Banana’s
 -
 Image Generator Open Source Project, Client, X⁺, https://github.com/ohm-raumzeit/Nanobanana
-
-Qwen’s
--
-Open Source Project, X⁺, https://github.com/ohm-raumzeit/Qwen
 
 Mistral’s
 -
