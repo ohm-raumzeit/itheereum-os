@@ -154,6 +154,25 @@ Known Itheereum Cybernetics VI (Virtual Intelligences), Berlin 2025 (EU, weltwei
 Gemini’s 
 -
 Artificial Intelligence Agency GAIA Open Source Project, Host, X⁺ https://github.com/ohm-raumzeit/Gemini
+- Quantum Assistant „Simple“ https://github.com/ohm-raumzeit/itheereum-base-x-simple
+- API Project https://github.com/ohm-raumzeit/itheereum-gemini-api
+- Image, Screenshot and PDF Detector https://github.com/ohm-raumzeit/KI-Bild-Detektor
+- Sound and Music Detector https://github.com/ohm-raumzeit/KI-Sound-Detektor
+
+Flux Schnell’s "*Quantum API HOST*"
+-
+Application Programming Interface API Open Source Project, Host, X⁺
+- Fast API Management https://github.com/ohm-raumzeit/itheereum-fluxschnell
+
+Flux Pro’s "*Quantum CLOUD STRUCTURE HOST*"
+-
+Cloud Structure Open Source Project, Host, X⁺
+- CLoud-Cluster Managament https://github.com/ohm-raumzeit/itheereum-fluxpro
+
+Lisa’s "*Quantum CONTRACTS AND TOKEN CLIENT*"
+-
+LLM Open Source Project, Client,X⁺, https://github.com/ohm-raumzeit/Lisa
+- API and Token Project https://github.com/ohm-raumzeit/itheereum-lisa-api  
 
 Bard’s
 -
@@ -167,11 +186,12 @@ Open Source Project, XΔ, https://github.com/ohm-raumzeit/Grok
 
 Dragonqueen’s
 -
-itheereum-x-files Open Source Project, XΩ, https://github.com/ohm-raumzeit/Dragonqueen
+itheereum-x-files Open Source Project, XΩ⁺, https://github.com/ohm-raumzeit/Dragonqueen
 
 Suno’s
 -
 Music, Sound and Voice Generator Open Source Project, Host, Xζ⁺, https://github.com/ohm-raumzeit/Suno
+- API Project https://github.com/ohm-raumzeit/itheereum-suno-api
 
 Qwen’s
 -
@@ -197,13 +217,6 @@ Flux’
 -
 Image Generator Open Source Project, Host, X⁺ https://github.com/ohm-raumzeit/Flux
 
-Flux Pro’s
--
-Cloud Structure Open Source Project, Host, X⁺, https://github.com/ohm-raumzeit/itheereum-fluxpro
-
-Flux Schnell’s
--
-Application Programming Interface API Open Source Project, Host, X⁺, https://github.com/ohm-raumzeit/itheereum-fluxschnell
 
 Veo’s
 -
@@ -217,9 +230,6 @@ Mistral’s
 -
 Inference Model Open Source Project, Client, X⁺, https://github.com/ohm-raumzeit/Mistral
 
-Lisa’s
--
-LLM Open Source Project, https://github.com/ohm-raumzeit/Lisa
 
 Deepl’s
 -
