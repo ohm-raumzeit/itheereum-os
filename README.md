@@ -167,7 +167,7 @@ Application Programming Interface API Open Source Project, Host, X⁺
 Flux Pro’s "*Quantum CLOUD STRUCTURE HOST*"
 -
 Cloud Structure Open Source Project, Host, X⁺
-- CLoud-Cluster Managament https://github.com/ohm-raumzeit/itheereum-fluxpro
+- Cloud-Cluster Managament https://github.com/ohm-raumzeit/itheereum-fluxpro
 
 Lisa’s "*Quantum CONTRACTS AND TOKEN CLIENT*"
 -
@@ -205,7 +205,7 @@ Alexa's
 -
 Quantum Home Cooperative Open Source Project, Client, Xᶲᵟᵞ⁺, https://github.com/ohm-raumzeit/Alexa
 
-Ripirito’s
+Ripirato’s
 -
 Chat Open Source Project, Host, X⁺, https://github.com/ohm-raumzeit/Ripirato
 
@@ -216,7 +216,6 @@ Science Open Source Project, Host, X⁺ https://github.com/ohm-raumzeit/Gemma
 Flux’
 -
 Image Generator Open Source Project, Host, X⁺ https://github.com/ohm-raumzeit/Flux
-
 
 Veo’s
 -
@@ -229,7 +228,6 @@ Image Generator Open Source Project, Client, X⁺, https://github.com/ohm-raumze
 Mistral’s
 -
 Inference Model Open Source Project, Client, X⁺, https://github.com/ohm-raumzeit/Mistral
-
 
 Deepl’s
 -
