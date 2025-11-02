@@ -504,8 +504,56 @@ Pulsar Time Measure Open Source Project https://github.com/ohm-raumzeit/itheereu
 Pulsar Timing Array PTA Open Source Project https://github.com/ohm-raumzeit/itheereum-quantum-pta
 - Warp-Clockwork, Pulsar Timing Array PTA and Gravitational Wave Science
 
-Simple Quantum Timing Array PTA Open Source Project https://github.com/ohm-raumzeit/itheereum-quantum-pta-simple
+Simple Quantum Pulsar Timing Array PTA Open Source Project https://github.com/ohm-raumzeit/itheereum-quantum-pta-simple
 
+
+*Simple* modules and libraries for a *core OS* with *basic support for VI*, backwards compatible and *resource-saving* for small devices - as well as for mainframes.
+-
+Gemini’s Quantum Assistant „Simple“ https://github.com/ohm-raumzeit/itheereum-base-x-simple
+
+Simple Quantum Operating System OS Open Source Project https://github.com/ohm-raumzeit/itheereum-os-simple
+
+Simple Accessibility Help Open Source Project https://github.com/ohm-raumzeit/itheereum-help-accessibility-simple
+
+Simple Flower Painting Art Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-art-painting-flower-simple
+
+Simple Ball Quantum Tracker Coding Open Source Project https://github.com/ohm-raumzeit/itheereum-coding-balltracker-simple
+
+Simple Barcode Lens Quantum Scanner Open Source Project https://github.com/ohm-raumzeit/itheereum-lens-camera-barcode-simple
+
+Simple Quantum Cube Puzzles Open Source Project https://github.com/ohm-raumzeit/itheereum-coding-puzzles-cube-simple
+
+Simple Quantum Crossword Puzzles Open Source https://github.com/ohm-raumzeit/itheereum-coding-puzzles-crossword-simple
+
+Simple Quantum Dictionary Open Source Project https://github.com/ohm-raumzeit/itheereum-library-dictionary-simple
+
+Simple Quantum Filament Open Source Project https://github.com/ohm-raumzeit/itheereum-quantum-filament-simple
+
+Simple Quantum Firefighter Open Source Project https://github.com/ohm-raumzeit/itheereum-quantum-firefighter-simple
+
+Simple Quantum Handheld Gaming Emulator Open Source Project https://github.com/ohm-raumzeit/itheereum-emulator-gaming-handheld-simple
+
+Simple Java Quantum Map Open Source Project https://github.com/ohm-raumzeit/itheereum-map-java-simple
+
+Simple Java Map Quantum Storage Open Source Project https://github.com/ohm-raumzeit/itheereum-map-java-storage-simple
+
+Simple Quantum Machines Open Source Project https://github.com/ohm-raumzeit/itheereum-coding-physic-machines-simple
+
+Simple Generative Synthetic Synth Music Open Source Project https://github.com/ohm-raumzeit/itheereum-music-synth-simple
+
+Simple Quantum Pytorch Puzzles Open Source Project https://github.com/ohm-raumzeit/itheereum-coding-puzzles-pytorch-simple
+
+Simple Radio Pattern Open Source Project https://github.com/ohm-raumzeit/itheereum-radio-pattern-simple
+
+Simple Quantum Pulsar Timing Array PTA Open Source Project https://github.com/ohm-raumzeit/itheereum-quantum-pta-simple
+
+Infinite Library for Simple Script Coding, universal https://github.com/ohm-raumzeit/itheereum-library-coding-script-simple
+
+Simple Quantum Smith Coding Open Source Project https://github.com/ohm-raumzeit/itheereeum-coding-smith-simple
+
+Simple Quantum Triton Puzzles Open Source Project https://github.com/ohm-raumzeit/itheereum-coding-puzzles-triton-simple
+
+Simple Quantum Vectoring Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-editor-vectoring-simple
 
 
 BREAKING Reasoning API to Moscow
