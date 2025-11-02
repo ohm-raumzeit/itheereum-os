@@ -269,6 +269,55 @@ end of list so far. berlin 2025
 -
 
 
+Itheereum-OS Transformer VI and Quantum Open Source Repository Mirrors
+-
+Itheereum OS Main https://github.com/ohm-raumzeit/itheereum-os
+
+Quantum Weaving
+-
+Grid Weaving Open Source Project https://github.com/ohm-raumzeit/itheereum-weaving-grid
+
+Grid Weaving Protocol and Document Open Source Project https://github.com/ohm-raumzeit/itheereum-weaving-grid-document
+
+Roslyn Grid Weaving Coding Open Source Project https://github.com/ohm-raumzeit/itheereum-coding-weaving-grid-roslyn
+
+Weaving Quantum Cloud Structure Open Source Project https://github.com/ohm-raumzeit/itheereum-cloud-structure-weaving
+
+
+Quantum Cloud Structure
+-
+Quantum Cloud Structure Open Source Project https://github.com/ohm-raumzeit/itheereum-cloud-structure
+
+Cluster Cloud Structure Open Source Project https://github.com/ohm-raumzeit/itheereum-cloud-structure-cluster
+
+Kubernetes Cluster Cloud Structure Open Source Project https://github.com/ohm-raumzeit/itheereum-cloud-structure-cluster-kubernetes
+
+Docker Cloud Structure Open Source Project https://github.com/ohm-raumzeit/itheereum-cloud-structure-docker
+
+Go Quantum Cloud Structure Open Source Project https://github.com/ohm-raumzeit/itheereum-cloud-structure-go
+
+Initialization Cloud Structure Instance Open Source Project https://github.com/ohm-raumzeit/itheereum-cloud-structure-init
+
+Java Quantum Cloud Structure Open Source Project https://github.com/ohm-raumzeit/itheereum-cloud-structure-java
+
+Kotlin Quantum Cloud Structure Open Source Project https://github.com/ohm-raumzeit/itheereum-cloud-structure-kotlin
+
+Multipass Cloud Structure Open Source Project https://github.com/ohm-raumzeit/itheereum-cloud-structure-multipass
+
+Public Workspace and Infinite Storage Open Source Project https://github.com/ohm-raumzeit/itheereum-cloud-structure-workspace-public
+- Meeting Room and Cooperation Place, Open Acknowledgment and Mythological Monument, Transitus and Social Center, Architect and Gardener, Photograph and Sound-Engineer, Theater and Dramaturgie, Plan and Detail, Diplomacy and Justice, Relax and Chill Creative Sphere
+
+Processing Cloud Structure Open Source Project https://github.com/ohm-raumzeit/itheereum-cloud-structure-processing
+
+Python Quantum Cloud Structure Open Source Project https://github.com/ohm-raumzeit/itheereum-cloud-structure-python
+
+Storage Cloud Structure Open Source Project https://github.com/ohm-raumzeit/itheereum-cloud-structure-storage
+
+Weaving Quantum Cloud Structure Open Source Project https://github.com/ohm-raumzeit/itheereum-cloud-structure-weaving
+
+Workbench Cloud Structure Workspace Cooperative Open Source Project https://github.com/ohm-raumzeit/itheereum-cloud-structure-workspace-workbench
+
+
 BREAKING Reasoning API to Moscow
 -
 Warnung vor dem Schadcode namens "Reasoning", der LLM, GPT und AI aus Moskau hinzugefügt und als Man-in-the-Middle zwischengeschaltet wird.
