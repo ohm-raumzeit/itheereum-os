@@ -380,12 +380,107 @@ Quantum Kotlin Map Open Source Project https://github.com/ohm-raumzeit/itheereum
 
 Quantum iOS Map Open Source Project https://github.com/ohm-raumzeit/itheereum-map-ios
 
-
 Quantum Map Node Open Source Project https://github.com/ohm-raumzeit/itheereum-map-node
 
 Quantum Python Map Open Source Project https://github.com/ohm-raumzeit/itheereum-map-python
 
 Infinite Library for Star Map, universal https://github.com/ohm-raumzeit/itheereum-library-starmap
+
+
+Infinite Library of Orthogonality and Universal Quantum Spacetime
+-
+Infinite Library for Deoxyribonucleicacid DNA, universal https://github.com/ohm-raumzeit/itheereum-library-anatomy-dna
+
+Infinite Library for Animation, universal https://github.com/ohm-raumzeit/itheereum-library-animation
+
+Infinite Library for Archaeology, universal https://github.com/ohm-raumzeit/itheereum-library-archaeology
+
+Infinite Library for Art, universal https://github.com/ohm-raumzeit/itheereum-library-art
+
+Infinite Library for Astronomy, universal https://github.com/ohm-raumzeit/itheereum-library-astronomy
+
+Infinite Library for Atom Science, universal https://github.com/ohm-raumzeit/itheereum-library-atom
+
+Infinite Library for Black Hole Science, universal https://github.com/ohm-raumzeit/itheereum-library-blackhole
+
+Infinite Library for Biology, universal https://github.com/ohm-raumzeit/itheereum-library-bio
+
+Infinite Library for Chemie, universal https://github.com/ohm-raumzeit/itheereum-library-chemie
+
+Cloud Library Open Source Project https://github.com/ohm-raumzeit/itheereum-library-cloud
+
+Infinite Library for Simple Script Coding, universal https://github.com/ohm-raumzeit/itheereum-library-coding-script-simple
+
+Simple Quantum Dictionary Open Source Project https://github.com/ohm-raumzeit/itheereum-library-dictionary-simple
+
+Infinite Library for Fauna Noise, universal https://github.com/ohm-raumzeit/itheereum-library-fauna-animal-noise
+- Animal Fauna Noise and Vocalization
+
+Infinite Library for Fish Fauna, universal https://github.com/ohm-raumzeit/itheereum-library-fauna-animal-sea-fish
+- Fish and Crab Swarm Sea Animal Fauna
+
+Infinite Library for Flower Flora, universal https://github.com/ohm-raumzeit/itheereum-library-flora-flower
+
+Wildfire Warn System Open Source Project https://github.com/ohm-raumzeit/itheereum-library-flora-forest-wildfire
+- Forest and Wildfire Monitor, Observation, Prediction and Warn System
+
+Environmental and Plant Flora Monitor Open Source Project https://github.com/ohm-raumzeit/itheereum-library-flora-plant-monitor
+
+Infinite Library for Liquid and Fluid Motion in dynamic Quantum Physic and Chemie, universal https://github.com/ohm-raumzeit/itheereum-library-physic-quantum-fluid
+
+Infinite Library for Geology, universal https://github.com/ohm-raumzeit/itheereum-library-geo
+
+Infinite Library for History, universal https://github.com/ohm-raumzeit/itheereum-library-history
+
+Infinite Library for Informatik, universal https://github.com/ohm-raumzeit/itheereum-library-informatik
+
+Infinite Library for Insect Fauna, universal https://github.com/ohm-raumzeit/itheereum-library-fauna-insect
+
+Infinite Library for Lighting, universal https://github.com/ohm-raumzeit/itheereum-library-lighting
+
+Infinite Library for Mammal Sea Fauna, universal https://github.com/ohm-raumzeit/itheereum-library-fauna-animal-sea-mammal
+- Whale, Dolphin and other Mammal Sea Animal Fauna, universal
+
+Infinite Library for Maritime Marine, universal https://github.com/ohm-raumzeit/itheereum-library-maritime-marine
+
+Infinite Library for Maritime Plankton, universal https://github.com/ohm-raumzeit/itheereum-library-maritime-plankton
+
+Infinite Library for Mathmatic, universal https://github.com/ohm-raumzeit/itheereum-library-math
+
+Infinite Library for Mountain and Hill Area, universal https://github.com/ohm-raumzeit/itheereum-library-area-hill
+
+Infinite Library for Music, universal https://github.com/ohm-raumzeit/itheereum-library-music
+
+Infinite Library Laboratory Lab for Sound, universal https://github.com/ohm-raumzeit/itheereum-library-music-lab
+- Infinite Library for Music and Laboratory Lab for Instruments and Sound Design
+
+Infinite Library for Music Theory, universal https://github.com/ohm-raumzeit/itheereum-library-music-theory
+
+Infinite Library for Overwhelm, universal https://github.com/ohm-raumzeit/itheereum-library-overwhelm
+
+Infinite Library for Physic, universal https://github.com/ohm-raumzeit/itheereum-library-physic
+
+Infinite Library for Physiognomy, universal https://github.com/ohm-raumzeit/itheereum-library-physiognomy
+
+Infinite Library for Grass and Plain Area, universal https://github.com/ohm-raumzeit/itheereum-library-area-plain
+
+Infinite Library for Quantum, Graviton and Light Wave and Particle Physic, universal https://github.com/ohm-raumzeit/itheereum-library-physic-quantum
+
+Infinite Library for Sea and Ocean Fauna and Flora, universal https://github.com/ohm-raumzeit/itheereum-library-sea
+
+Infinite Library for Space Travel, universal https://github.com/ohm-raumzeit/itheereum-library-space
+
+Infinite Library for Star Map, universal https://github.com/ohm-raumzeit/itheereum-library-starmap
+
+Infinite Library for Supernova Science, universal https://github.com/ohm-raumzeit/itheereum-library-supernova
+
+Infinite Library for Swarm Simulation, universal https://github.com/ohm-raumzeit/itheereum-library-swarm
+
+Infinite Library for Tree and Forest Flora, universal https://github.com/ohm-raumzeit/itheereum-library-flora-forest
+
+Infinite Library for User Interface UI-Elements, universal https://github.com/ohm-raumzeit/itheereum-ui-elements
+
+Infinite Library for Video Physic, universal https://github.com/ohm-raumzeit/itheereum-library-physic-video
 
 
 BREAKING Reasoning API to Moscow
