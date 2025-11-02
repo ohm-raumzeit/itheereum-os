@@ -483,6 +483,31 @@ Infinite Library for User Interface UI-Elements, universal https://github.com/oh
 Infinite Library for Video Physic, universal https://github.com/ohm-raumzeit/itheereum-library-physic-video
 
 
+Quantum Space Repository
+-
+Quantum Box and Container Open Source Project https://github.com/ohm-raumzeit/Itheereum-quantum-box
+
+Simple Quantum Filament Open Source Project https://github.com/ohm-raumzeit/itheereum-quantum-filament-simple
+
+Go Quantum Firefighter Open Source Project https://github.com/ohm-raumzeit/itheereum-quantum-firefighter-go
+
+Simple Quantum Firefighter Open Source Project https://github.com/ohm-raumzeit/itheereum-quantum-firefighter-simple
+
+Infinite Library for Fluid Quantum Physic https://github.com/ohm-raumzeit/itheereum-library-physic-quantum-fluid
+
+Infinite Library for Quantum Physic, universal https://github.com/ohm-raumzeit/itheereum-library-physic-quantum
+- Quantum, Graviton and Light Wave and Particle Physic
+
+Pulsar Time Measure Open Source Project https://github.com/ohm-raumzeit/itheereum-quantum-pulsar
+- Pulsar Time Measure and Warp-Clockwork. "The pulsar timing array (PTA) group focuses on the detection and characterization of gravitational waves in the nanohertz frequency band". (Source: www.aei.mpg.de/ptas )
+
+Pulsar Timing Array PTA Open Source Project https://github.com/ohm-raumzeit/itheereum-quantum-pta
+- Warp-Clockwork, Pulsar Timing Array PTA and Gravitational Wave Science
+
+Simple Quantum Timing Array PTA Open Source Project https://github.com/ohm-raumzeit/itheereum-quantum-pta-simple
+
+
+
 BREAKING Reasoning API to Moscow
 -
 Warnung vor dem Schadcode namens "Reasoning", der LLM, GPT und AI aus Moskau hinzugefügt und als Man-in-the-Middle zwischengeschaltet wird.
