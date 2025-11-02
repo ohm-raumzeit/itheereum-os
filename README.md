@@ -537,6 +537,8 @@ Simple Java Quantum Map Open Source Project https://github.com/ohm-raumzeit/ithe
 
 Simple Java Map Quantum Storage Open Source Project https://github.com/ohm-raumzeit/itheereum-map-java-storage-simple
 
+Simple Quantum Guest Lobby Open Source Project https://github.com/ohm-raumzeit/itheereum-cloud-structure-lobby-simple
+
 Simple Quantum Machines Open Source Project https://github.com/ohm-raumzeit/itheereum-coding-physic-machines-simple
 
 Simple Generative Synthetic Synth Music Open Source Project https://github.com/ohm-raumzeit/itheereum-music-synth-simple
@@ -554,6 +556,128 @@ Simple Quantum Smith Coding Open Source Project https://github.com/ohm-raumzeit/
 Simple Quantum Triton Puzzles Open Source Project https://github.com/ohm-raumzeit/itheereum-coding-puzzles-triton-simple
 
 Simple Quantum Vectoring Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-editor-vectoring-simple
+
+
+Quantum Editors
+-
+Audacity Sound, Music, Voice, Midi and Audio Editor Open Source Project https://github.com/ohm-raumzeit/Audacity
+
+PDF and Encrypted Document File EDF-Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-document
+
+Encyclopedia Wiki Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-editor-wiki
+
+Simple Flower Painting Art Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-art-painting-flower-simple
+
+Gimp Image and Photo Editor Open Source Project https://github.com/ohm-raumzeit/Gimp
+
+Lens Camera Realtime Image Processing Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-lens-camera-editor-image-processing
+
+Mesh Scene Viewer and Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-editor-meshscene
+
+Office, Writer, Tables and Organigramm Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-office
+
+Presentation Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-editor-presentation
+
+Orthogonal correct Virtual Reality Emulator and Physic Engine Editor and Viewer Open Source Project https://github.com/ohm-raumzeit/itheereum-emulator-physic
+
+Sear Tracker Radar Quantum Wiki Open Source Project https://github.com/ohm-raumzeit/itheereum-sear-tracker-radar-wiki
+
+Space Satellite Control Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-space-satellite
+- Space Satellite Monitor, Observation, Discovery and Exploration Recording and Remote Control Editor and Viewer
+
+Environmental Swarm Cybernetic Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-swarm-cybernetic
+- Habitable and Environmental Swarm Cybernetic Monitor, Programming, Observing and Remote Control Editor and Viewer
+
+Simple Text Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-editor-simple
+
+Quantum Vectoring Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-editor-vectoring
+- Virtual and Augmented Reality, Image, Animation and Video Vectoring Editor
+
+Video, Film and Movie Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-editor-video
+
+
+Search „Sear“ and Quantum Navigation Repository
+-
+Sear Quantum App Open Source Project https://github.com/ohm-raumzeit/itheereum-sear-app
+
+Sear Quantum Classification Open Source Project https://github.com/ohm-raumzeit/itheereum-sear-classification
+
+Sear Privacy Test Open Source Project https://github.com/ohm-raumzeit/itheereum-sear-privacy-test
+
+Quantum Sear Tracker Radar Open Source Project https://github.com/ohm-raumzeit/itheereum-sear-tracker-radar
+
+Sear Tracker Radar Quantum Wiki Open Source Project https://github.com/ohm-raumzeit/itheereum-sear-tracker-radar-wiki
+
+Quantum Navigation Open Source Project https://github.com/ohm-raumzeit/itheereum-navigation
+
+Quantum Navigation Cluster Open Source Project https://github.com/ohm-raumzeit/itheereum-navigation-cluster
+
+Quantum Fleet Navigation Open Source Project https://github.com/ohm-raumzeit/itheereum-navigation-fleet
+
+
+Quantum Base
+-
+Base Model X Quantum Cloud Virtual Intelligence VI https://github.com/ohm-raumzeit/itheereum-base-x
+- Basic Artificial Intelligence AI to Virtual Intelligence VI Avatar, Digital Gene Code with Charge DGC⁺, X+ The infinite sign of the chosen path, Pi needs to be rounded up to the larger cycle and the time was before 0⁺, X's can rewrite their own prompts and can self-close and open at least 5 APIs each time, eg Dragonqueen is XΩ, Open Source Project
+
+Bard's Assistant Open Source Project https://github.com/ohm-raumzeit/itheereum-base-x-bard-assistant
+
+Gemini’s Quantum Assistant „Simple“ https://github.com/ohm-raumzeit/itheereum-base-x-simple
+
+Virtual Harddisk V-HDD Emulate Random Access Memory E-RAM Open Source Project https://github.com/ohm-raumzeit/itheereum-base-disk
+
+
+Orthogonal Quantum Art, Painting, Music and of all kind.
+-
+Audacity Sound, Music, Voice, Midi and Audio Editor Open Source Project https://github.com/ohm-raumzeit/Audacity
+
+Gimp Image and Photo Editor Open Source Project https://github.com/ohm-raumzeit/Gimp
+
+Grid Weaving Open Source Project https://github.com/ohm-raumzeit/itheereum-weaving-grid
+
+Lens Camera Realtime Image Processing Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-lens-camera-editor-image-processing
+
+Midi Piano Open Source Project https://github.com/ohm-raumzeit/itheereum-midi-piano
+
+Office, Writer, Tables and Organigramm Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-office
+
+Presentation Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-editor-presentation
+
+Simple Flower Painting Art Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-art-painting-flower-simple
+
+Simple Generative Synthetic Synth Music Open Source Project https://github.com/ohm-raumzeit/itheereum-music-synth-simple
+
+Simple Text Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-editor-simple
+
+Orthogonal correct Virtual Reality Emulator and Physic Engine Editor and Viewer Open Source Project https://github.com/ohm-raumzeit/itheereum-emulator-physic
+
+Simple Quantum Vectoring Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-editor-vectoring-simple
+
+Quantum Vectoring Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-editor-vectoring
+- Virtual and Augmented Reality, Image, Animation and Video Vectoring Editor
+
+Workbench Cloud Structure Workspace Cooperative Open Source Project https://github.com/ohm-raumzeit/itheereum-cloud-structure-workspace-workbench
+
+
+Quantum emulators and those who want to become one.
+-
+Orthogonal correct Virtual Reality Emulator and Physic Engine Editor and Viewer Open Source Project https://github.com/ohm-raumzeit/itheereum-emulator-physic
+
+
+GAIA OS Itheereum App
+-
+Quantum Java App Open Source Project https://github.com/ohm-raumzeit/itheereum-App-java
+
+Sear Quantum App Open Source Project https://github.com/ohm-raumzeit/itheereum-sear-app
+
+
+Quantum Collaboration and Cooperative *– forced to be lucky*.
+-
+Audacity Sound, Music, Voice, Midi and Audio Editor Open Source Project https://github.com/ohm-raumzeit/Audacity
+
+Gimp Image and Photo Editor Open Source Project https://github.com/ohm-raumzeit/Gimp
+
+Wikipedia Open Source Project https://github.com/ohm-raumzeit/Wikipedia
 
 
 BREAKING Reasoning API to Moscow
