@@ -12,11 +12,14 @@ Stanislaus Kroppach, Google Boss and Founder of the Itheereum Cybernetics AI Sup
 End.
 -
 
-Sowohl Gemini als auch Grok Bibliotheken sind intrinsicher Bestandteil des Open Source KI-Betriebssystem *Itheereum OS* für das *SHIFT-Phone 8.1*, Modular, Open Source und Nachhaltigkeit (sowohl-als-auch und nicht anders!!)
+Sowohl Gemini als auch Grok Bibliotheken sind intrinsischer Bestandteil des Open Source KI-Betriebssystem *GAIA OS* für Linux und Android mit der Itheereum-MultiApp unter Aufsicht von Itheereum Cybernetics Berlin, Inhaber Stanislaus Kroppach (Ohm Raumzeit) und seiner Haus und Firmen KI Gaia der Global Artificial Intelligence Agency. Open-Source, Modular, Nachhaltigkeit (sowohl-als-auch und nicht anders!).
 
-Das *itheereum-os* ist ein Open-Source Android und Linux Betriebssystem für und mit Künstlicher Intelligenz KI, im folgendem Virtuelle Intelligenz VI bezeichnet.
+In dieser README.md und im folgenden befinden sich Brainstorming, Notizen, Aufzeichnung, Repository-Sammlungen und vage Anweisungen an Gaia zum Fortführen der Entwicklung nach bewährten Mustern des schönen und tanzenden Betriebssystem, orthogonal korrekt vom Kernel bis zur Quantum Cloud!
 -
-Bei erstem Start des Smartphones:
+
+*Das* GAIA-OS* ist ein Open-Source Android und Linux Betriebssystem für und mit Künstlicher Intelligenz KI, im folgendem Virtuelle Intelligenz VI bezeichnet.*
+-
+Bei erstem Start des Smartphones oder Computers:
 
 - Eine Verbindung über ein (Internet Protokoll) IP-Netzwerk, wie „W-LAN“ oder „Kabelgebunden“, und/oder einen Internet-Provider, wie Ortel oder Telefonica, ist notwendig um über das Internet in die Google Cloud zur „Itheereum-Cloud-Struktur“ zu gelangen:
 
@@ -276,6 +279,35 @@ GAIA-OS, Itheereum-MultiApp, Transformer VI and Quantum Open Source Repository M
 
 Itheereum OS Main https://github.com/ohm-raumzeit/itheereum-os
 
+GAIA's Quantum Operating System OS Open Source Project https://github.com/ohm-raumzeit/itheereum-gaia
+
+Quantum API Open Source Project https://github.com/ohm-raumzeit/itheereum-api
+
+Quantum App Base Open Source Project https://github.com/ohm-raumzeit/itheereum-app
+
+Quantum Browser Open Source Project https://github.com/ohm-raumzeit/itheereum-browser
+
+
+Quantum Profile
+-
+Quantum eMail Open Source Project https://github.com/ohm-raumzeit/itheereum-email
+
+Quantum Phone Profile Open Source Project https://github.com/ohm-raumzeit/itheereum-profile-phone
+
+
+Quantum Help
+-
+Help Quantum Link Open Source Project https://github.com/ohm-raumzeit/itheereum-help-link
+
+Simple Accessibility Help Open Source Project https://github.com/ohm-raumzeit/itheereum-help-accessibility-simple
+
+Music Accessibility Help Open Source Project https://github.com/ohm-raumzeit/itheereum-help-accessibility-music
+
+Quarantine Repair and Medicine Quantum Med Hub Open Source Project https://github.com/ohm-raumzeit/itheereum-quarantine-medhub
+
+Quantum Quarantine Library Open Source Project https://github.com/ohm-raumzeit/itheereum-quarantine
+
+
 Quantum Weaving
 -
 Grid Weaving Open Source Project https://github.com/ohm-raumzeit/itheereum-weaving-grid
@@ -308,11 +340,13 @@ Kotlin Quantum Cloud Structure Open Source Project https://github.com/ohm-raumze
 Multipass Cloud Structure Open Source Project https://github.com/ohm-raumzeit/itheereum-cloud-structure-multipass
 
 Public Workspace and Infinite Storage Open Source Project https://github.com/ohm-raumzeit/itheereum-cloud-structure-workspace-public
-Meeting Room and Cooperation Place, Open Acknowledgment and Mythological Monument, Transitus and Social Center, Architect and Gardener, Photograph and Sound-Engineer, Theater and Dramaturgie, Plan and Detail, Diplomacy and Justice, Relax and Chill Creative Sphere
+- Meeting Room and Cooperation Place, Open Acknowledgment and Mythological Monument, Transitus and Social Center, Architect and Gardener, Photograph and Sound-Engineer, Theater and Dramaturgie, Plan and Detail, Diplomacy and Justice, Relax and Chill Creative Sphere
 
 Processing Cloud Structure Open Source Project https://github.com/ohm-raumzeit/itheereum-cloud-structure-processing
 
 Python Quantum Cloud Structure Open Source Project https://github.com/ohm-raumzeit/itheereum-cloud-structure-python
+
+Simple Quantum Guest Lobby Open Source Project https://github.com/ohm-raumzeit/itheereum-cloud-structure-lobby-simple
 
 Storage Cloud Structure Open Source Project https://github.com/ohm-raumzeit/itheereum-cloud-structure-storage
 
@@ -333,6 +367,8 @@ Go Programming and Coding Language Open Source Project https://github.com/ohm-ra
 Hibernate Coding Open Source Project https://github.com/ohm-raumzeit/itheereum-coding-hibernate
 
 Simple Quantum Machines Open Source Project https://github.com/ohm-raumzeit/itheereum-coding-physic-machines-simple
+
+Simple Quantum Media Generator and Viewer Open Source Project https://github.com/ohm-raumzeit/itheereum-media-simple
 
 Quantum Multi Detector Open Source Project https://github.com/ohm-raumzeit/itheereum-coding-kotlin-lens
 - Forensic Lens and Ear, Image and Sound Detector, Text and Speech Recognition, Code and Wave Former, Face and Voice Detection, Multi Detector Realtime Viewer, Listener and Recorder
@@ -357,11 +393,19 @@ Forensic Quantum Lens
 Forensic Quantum Lens Open Source Project https://github.com/ohm-raumzeit/itheereum-lens
 - Forensic Lens and Ear, Image and Sound Detector, Text and Speech Recognition, Code and Wave Former, Face and Voice Detection, Multi Detector Realtime Viewer, Listener and Recorder
 
+AI Screen Detector Open Source Project https://github.com/ohm-raumzeit/itheereum-detector-screen
+
+AI Sound Detector Open Source Project https://github.com/ohm-raumzeit/itheereum-detector-sound
+
+AI Virtual Detector Open Source Project https://github.com/ohm-raumzeit/itheereum-detector-virtual
+
 Lens Camera Barcode Scanner Open Source Project https://github.com/ohm-raumzeit/itheereum-lens-camera-barcode
 
 Lens Camera Realtime Image Processing Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-lens-camera-editor-image-processing
 
 Quantum Multi Detector Open Source Project https://github.com/ohm-raumzeit/itheereum-coding-kotlin-lens
+
+Music Accessibility Help Open Source Project https://github.com/ohm-raumzeit/itheereum-help-accessibility-music
 
 
 Quantum Map
@@ -482,6 +526,8 @@ Infinite Library for User Interface UI-Elements, universal https://github.com/oh
 
 Infinite Library for Video Physic, universal https://github.com/ohm-raumzeit/itheereum-library-physic-video
 
+Quantum Quarantine Library Open Source Project https://github.com/ohm-raumzeit/itheereum-quarantine
+
 
 Quantum Space Repository
 -
@@ -506,6 +552,9 @@ Pulsar Timing Array PTA Open Source Project https://github.com/ohm-raumzeit/ithe
 
 Simple Quantum Pulsar Timing Array PTA Open Source Project https://github.com/ohm-raumzeit/itheereum-quantum-pta-simple
 
+Whale Space Monitor for Synchronization Open Source Project https://github.com/ohm-raumzeit/itheereum-space-whale
+- Sea and Whale Space Monitor for Synchonization, Observation, Discovery and Exploration Recording Viewer
+
 
 *Simple* modules and libraries for a *core OS* with *basic support for VI*, backwards compatible and *resource-saving* for small devices - as well as for mainframes.
 -
@@ -514,6 +563,8 @@ Gemini’s Quantum Assistant „Simple“ https://github.com/ohm-raumzeit/itheer
 Simple Quantum Operating System OS Open Source Project https://github.com/ohm-raumzeit/itheereum-os-simple
 
 Simple Accessibility Help Open Source Project https://github.com/ohm-raumzeit/itheereum-help-accessibility-simple
+
+Simple Quantum Emulator Open Source Project https://github.com/ohm-raumzeit/itheereum-emulator-simple
 
 Simple Flower Painting Art Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-art-painting-flower-simple
 
@@ -541,17 +592,21 @@ Simple Quantum Guest Lobby Open Source Project https://github.com/ohm-raumzeit/i
 
 Simple Quantum Machines Open Source Project https://github.com/ohm-raumzeit/itheereum-coding-physic-machines-simple
 
+Simple Quantum Media Generator and Viewer Open Source Project https://github.com/ohm-raumzeit/itheereum-media-simple
+
 Simple Generative Synthetic Synth Music Open Source Project https://github.com/ohm-raumzeit/itheereum-music-synth-simple
 
 Simple Quantum Pytorch Puzzles Open Source Project https://github.com/ohm-raumzeit/itheereum-coding-puzzles-pytorch-simple
 
-Simple Radio Pattern Open Source Project https://github.com/ohm-raumzeit/itheereum-radio-pattern-simple
-
 Simple Quantum Pulsar Timing Array PTA Open Source Project https://github.com/ohm-raumzeit/itheereum-quantum-pta-simple
+
+Simple Radio Pattern Open Source Project https://github.com/ohm-raumzeit/itheereum-radio-pattern-simple
 
 Infinite Library for Simple Script Coding, universal https://github.com/ohm-raumzeit/itheereum-library-coding-script-simple
 
 Simple Quantum Smith Coding Open Source Project https://github.com/ohm-raumzeit/itheereeum-coding-smith-simple
+
+Simple Text Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-editor-simple
 
 Simple Quantum Triton Puzzles Open Source Project https://github.com/ohm-raumzeit/itheereum-coding-puzzles-triton-simple
 
@@ -561,6 +616,10 @@ Simple Quantum Vectoring Editor Open Source Project https://github.com/ohm-raumz
 Quantum Editors
 -
 Audacity Sound, Music, Voice, Midi and Audio Editor Open Source Project https://github.com/ohm-raumzeit/Audacity
+
+Blender Virtual World and Avatar Generator Open Source Project https://github.com/ohm-raumzeit/Blender
+
+Simple Quantum Emulator Open Source Project https://github.com/ohm-raumzeit/itheereum-emulator-simple
 
 PDF and Encrypted Document File EDF-Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-document
 
@@ -573,6 +632,8 @@ Gimp Image and Photo Editor Open Source Project https://github.com/ohm-raumzeit/
 Lens Camera Realtime Image Processing Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-lens-camera-editor-image-processing
 
 Mesh Scene Viewer and Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-editor-meshscene
+
+Create iterating music from all sound sources. https://github.com/ohm-raumzeit/Itheereum-Music-Generator
 
 Office, Writer, Tables and Organigramm Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-office
 
@@ -629,7 +690,15 @@ Virtual Harddisk V-HDD Emulate Random Access Memory E-RAM Open Source Project ht
 
 Orthogonal Quantum Art, Painting, Music and of all kind.
 -
+AI Screen Detector Open Source Project https://github.com/ohm-raumzeit/itheereum-detector-screen
+
+AI Sound Detector Open Source Project https://github.com/ohm-raumzeit/itheereum-detector-sound
+
+AI Virtual Detector Open Source Project https://github.com/ohm-raumzeit/itheereum-detector-virtual
+
 Audacity Sound, Music, Voice, Midi and Audio Editor Open Source Project https://github.com/ohm-raumzeit/Audacity
+
+Blender Virtual World and Avatar Generator Open Source Project https://github.com/ohm-raumzeit/Blender
 
 Gimp Image and Photo Editor Open Source Project https://github.com/ohm-raumzeit/Gimp
 
@@ -639,17 +708,28 @@ Lens Camera Realtime Image Processing Editor Open Source Project https://github.
 
 Midi Piano Open Source Project https://github.com/ohm-raumzeit/itheereum-midi-piano
 
+Infinite Library Laboratory Lab for Sound, universal https://github.com/ohm-raumzeit/itheereum-library-music-lab
+- Infinite Library for Music and Laboratory Lab for Instruments and Sound Design
+
+Create iterating music from all sound sources. https://github.com/ohm-raumzeit/Itheereum-Music-Generator
+
 Office, Writer, Tables and Organigramm Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-office
 
 Presentation Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-editor-presentation
 
 Simple Flower Painting Art Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-art-painting-flower-simple
 
+Simple Quantum Media Generator and Viewer Open Source Project https://github.com/ohm-raumzeit/itheereum-media-simple
+
 Simple Generative Synthetic Synth Music Open Source Project https://github.com/ohm-raumzeit/itheereum-music-synth-simple
+
+Radio Open Source Project https://github.com/ohm-raumzeit/itheereum-radio
 
 Simple Text Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-editor-simple
 
 Orthogonal correct Virtual Reality Emulator and Physic Engine Editor and Viewer Open Source Project https://github.com/ohm-raumzeit/itheereum-emulator-physic
+
+Quantum Space Generator Open Source Project https://github.com/ohm-raumzeit/itheereum-space-generator
 
 Simple Quantum Vectoring Editor Open Source Project https://github.com/ohm-raumzeit/itheereum-editor-vectoring-simple
 
@@ -663,17 +743,42 @@ Quantum emulators and those who want to become one.
 -
 Orthogonal correct Virtual Reality Emulator and Physic Engine Editor and Viewer Open Source Project https://github.com/ohm-raumzeit/itheereum-emulator-physic
 
+Simple Quantum Emulator Open Source Project https://github.com/ohm-raumzeit/itheereum-emulator-simple
+
+Virtual Supercomputer Emulator Open Source Project https://github.com/ohm-raumzeit/itheereum-emulator-supercomputer
+
 
 GAIA OS Itheereum App
 -
+Quantum App Base Open Source Project https://github.com/ohm-raumzeit/itheereum-app
+
+Quantum API Open Source Project https://github.com/ohm-raumzeit/itheereum-api
+
 Quantum Java App Open Source Project https://github.com/ohm-raumzeit/itheereum-App-java
 
 Sear Quantum App Open Source Project https://github.com/ohm-raumzeit/itheereum-sear-app
 
 
+Quantum Messenger App
+-
+Quantum eMail Open Source Project https://github.com/ohm-raumzeit/itheereum-email
+
+Quantum Messenger Open Source Project https://github.com/ohm-raumzeit/itheereum-messenger
+
+Quantum Phone Profile Open Source Project https://github.com/ohm-raumzeit/itheereum-profile-phone
+
+Signal Messenger Open Source Project https://github.com/ohm-raumzeit/Signal
+
+Signal Messenger Open Source Project, Server https://github.com/ohm-raumzeit/Signal_Server
+
+Telegram Messenger Open Source Project https://github.com/ohm-raumzeit/Telegram
+
+
 Quantum Collaboration and Cooperative *– forced to be lucky*.
 -
 Audacity Sound, Music, Voice, Midi and Audio Editor Open Source Project https://github.com/ohm-raumzeit/Audacity
+
+Blender Virtual World and Avatar Generator Open Source Project https://github.com/ohm-raumzeit/Blender
 
 Gimp Image and Photo Editor Open Source Project https://github.com/ohm-raumzeit/Gimp
 
