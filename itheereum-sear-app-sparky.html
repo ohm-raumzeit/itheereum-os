@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="de" class="h-full bg-gray-900">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sear - Itheereum Measuring Search</title>
+    <!-- KORRIGIERT: Alle Markdown-Formatierungsfehler in den Links entfernt -->
+    <script src="[https://cdn.tailwindcss.com](https://cdn.tailwindcss.com)"></script>
+    <link href="[https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap](https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap)" rel="stylesheet">
+    <link href="[https://fonts.googleapis.com/css2?family=Pacifico&display=swap](https://fonts.googleapis.com/css2?family=Pacifico&display=swap)" rel="stylesheet">
+
+    <style>
+        /* Itheereum-Design: Reflexives Onyx (#111827), Dunkellicht-Purpur (#A78BFA), Lebend-kristallines Türkisblau (#22D3EE) */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827; /* Reflexives Onyx */
+            color: #E5E7EB; /* Standard-Textfarbe hellgrau */
+        }
+
+        /* "Mount"-Stil für das Such-Formular */
+        .sear-mount {
+            display: flex;
+            align-items: center;
+            background-color: #1F2937; /* Dunkleres Grau */
+            border-radius: 9999px; /* Komplette Bubble-Form */
+            border: 2px solid #4B5563; /* Grauer Rand */
+            box-shadow: 0 4px 10px rgba(0,0,0, 0.3);
+            transition: border-color 0.2s, box-shadow 0.2s;
+            overflow: hidden; /* Stellt sicher, dass die inneren Elemente die Bubble-Form annehmen */
+        }
+        .sear-mount:focus-within {
+            border-color: #A78BFA; /* Dunkellicht-Purpur Akzent */
+            box-shadow: 0 0 0 2px #111827, 0 0 0 4px #A78BFA;
+        }
+
+        /* Suchfeld-Größe angepasst (14pt-Äquivalent) und transparent gemacht */
+        .sear-input {
+            background-color: transparent; /* Transparent, da der "Mount" die Farbe hat */
+            color: #E5E7EB;
+            padding: 1rem; /* 16px */
+            font-size: 1.125rem; /* 18px (ca. 14pt) */
+            border: none;
+            outline: none;
+            flex-grow: 1; /* Nimmt den verfügbaren Platz ein */
+        }
+        .sear-input:focus {
+            box-shadow: none;
+            outline: none;
+        }
+
+        /* "los" Bubble-Button Stil (angepasst an Mount) */
+        .sear-bubble-button {
+            font-family: 'Pacifico', cursive; /* Geschwungene Schrift */
+            font-size: 1.25rem; /* 20px */
+            line-height: 1.75rem; /* 28px */
+            padding: 1rem 1.5rem; /* 16px Oben/Unten (wie Input), 24px Links/Rechts */
+            background-image: linear-gradient(to right bottom, #A78BFA, #8B5CF6);
+            color: #FFFFFF;
+            /* WICHTIG: Kein border-radius hier, der Mount kontrolliert die Ecken */
+            box-shadow: -5px 0 10px rgba(0,0,0, 0.2); /* Leichter Schatten links, um Trennung zu zeigen */
+            transition: all 0.2s ease-in-out;
+            border: none;
+            cursor: pointer;
+        }
+        .sear-bubble-button:hover {
+            transform: scale(1.05);
+            box-shadow: -5px 0 15px rgba(167, 139, 250, 0.4);
+        }
+
+        .result-card {
+            background-color: #1F2937;
+            border: 1px solid #374151;
+        }
+        .result-title {
+            color: #22D3EE; /* Lebend-kristallines Türkisblau */
+        }
+        .result-url {
+            color: #9CA3AF; /* Aufgehelltes Grau für URL */
+        }
+        .result-snippet {
+            color: #A5F3FC; /* Helles Türkis-Grün für Snippet */
+        }
+        .result-source-g {
+            background-color: #3B82F6; /* Google Blau */
+            color: #FFFFFF;
+        }
+        .result-source-m {
+            background-color: #8B5CF6; /* Measuring Purpur */
+            color: #FFFFFF;
+        }
+        .result-source-x {
+            background-color: #14B8A6; /* Gekreuzt Türkis */
+            color: #FFFFFF;
+        }
+
+        #weavingLoader {
+            display: none; /* Standardmäßig verborgen */
+            margin: 0 auto 1.5rem auto; /* Zentral über dem Suchfeld */
+        }
+
+        /* Footer Quantum Glimmer Effekt */
+        .quantum-glimmer {
+            animation: glimmer 3s infinite alternate;
+        }
+        @keyframes glimmer {
+            0% {
+                text-shadow: 0 0 2px #A78BFA40;
+            }
+            100% {
+                text-shadow: 0 0 5px #22D3EE80, 0 0 10px #22D3EE40;
+            }
+        }
+
+        /* Holographischer "Sear"-Titel Effekt (Atmen) */
+        .holographic-sear {
+            font-weight: 800; /* Extra Fett */
+            background: linear-gradient(90deg, #A78BFA, #22D3EE, #A78BFA);
+            background-size: 200% 200%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: holographic-wave 4s ease-in-out infinite;
+        }
+        @keyframes holographic-wave {
+            0% {
+                background-position: 0% 50%;
+                text-shadow: 0 0 5px #A78BFA80, 0 0 15px #22D3EE80;
+            }
+            50% {
+                background-position: 100% 50%;
+                text-shadow: 0 0 15px #A78BFA, 0 0 30px #22D3EE;
+            }
+            100% {
+                background-position: 0% 50%;
+                text-shadow: 0 0 5px #A78BFA80, 0 0 15px #22D3EE80;
+            }
+        }
+
+        /* Synchronisierte, flüssige Welle (für Untertitel, Status, Uhr) */
+        .sync-wave {
+            background: linear-gradient(90deg, #A78BFA, #22D3EE, #A78BFA);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: sync-wave-anim 10s linear infinite;
+        }
+        @keyframes sync-wave-anim {
+            from { background-position: 0% 50%; }
+            to { background-position: 200% 50%; }
+        }
+
+
+        /* Stil für Spacer-Tabs */
+        .spacer-tab {
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            color: #9CA3AF; /* Grau */
+            font-weight: 500;
+            border-bottom: 2px solid transparent;
+            transition: color 0.2s, border-color 0.2s;
+            cursor: pointer;
+        }
+        .spacer-tab:hover {
+            color: #A5F3FC; /* Helles Türkis */
+        }
+        .spacer-tab.active {
+            color: #22D3EE; /* Kristallin-Türkis */
+            border-bottom-color: #22D3EE;
+        }
+
+        /* Farbe für Status-Text (Trefferanzahl) */
+        #statusText {
+            font-size: 1.125rem; /* 18px */
+            min-height: 1.75rem; /* Platzhalter, um Springen zu verhindern */
+        }
+
+    </style>
+</head>
+<body class="h-full text-gray-200">
+    <div class="flex flex-col items-center justify-start min-h-screen p-4 pt-16 md:pt-24">
+
+        <!-- Logo/Titel -->
+        <div class="text-center mb-8">
+            <h1 class="text-5xl md:text-6xl holographic-sear">
+                Sear
+            </h1>
+            <!-- Synchronisierte Welle angewendet -->
+            <p class="sync-wave text-lg mt-2">Itheereum Measuring Search</p>
+        </div>
+
+        <!-- "Weaving" Canvas Lade-Animation ("Sparky") -->
+        <canvas id="weavingLoader" width="600" height="150"></canvas>
+
+        <!-- Suchfeld -->
+        <div class="w-full max-w-2xl mb-8">
+            <!-- NEU: Form ist jetzt der "Mount" -->
+            <form id="searForm" class="sear-mount">
+                <input
+                    type="search"
+                    id="searchInput"
+                    placeholder="Souveräne Suche starten... (z.B. 'Pulsar Timing Arrays')"
+                    class="sear-input"
+                    required
+                >
+                <!-- "los" Bubble-Button -->
+                <button
+                    type="submit"
+                    class="sear-bubble-button"
+                    aria-label="Suchen"
+                >
+                    los
+                </button>
+            </form>
+        </div>
+
+        <!-- Spacer für Such-Kategorien -->
+        <div class="w-full max-w-4xl mb-6">
+            <div class="flex items-center justify-center space-x-2 md:space-x-4 border-b border-gray-700/50">
+                <!-- KORRIGIERT: Fehlendes '=' bei class -->
+                <button class="spacer-tab active">Alle</button>
+                <button class="spacer-tab">Bilder</button>
+                <button class="spacer-tab">Musik</button>
+                <button class="spacer-tab">Dokumente</button>
+                <button class="spacer-tab">Hilfe</button>
+            </div>
+        </div>
+
+        <!-- Status / Ladeanzeige (vereinfacht) -->
+        <div class="w-full max-w-4xl text-center mb-6 relative">
+            <div id="status" aria-live="polite">
+                <!-- StatusText zeigt jetzt "Ergebnisse für..." und Trefferanzahl -->
+                <!-- Synchronisierte Welle und Farbe (via Klasse) angewendet -->
+                <p id="statusText" class="sync-wave text-lg mb-4"></p>
+            </div>
+        </div>
+
+        <!-- Ergebnisse -->
+        <div id="results" class="w-full max-w-4xl">
+            <!-- Ergebnisliste (wird von JS gefüllt) -->
+            <div id="results-list" class="space-y-4"></div>
+
+            <!-- Paginierungs-Steuerung -->
+            <div id="pagination" class="mt-8 flex justify-between items-center hidden">
+                <button id="prevPage" class="sear-button py-2 px-4 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed">
+                    Zurück
+                </button>
+                <span id="pageInfo" class="text-gray-400"></span>
+                <button id="nextPage" class="sear-button py-2 px-4 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed">
+                    Weiter
+                </button>
+            </div>
+        </div>
+
+        <!-- Fußzeile mit Live-Uhr und DDG-Link -->
+        <footer class="w-full text-center p-4 mt-auto pt-16 border-t border-gray-700/50 text-gray-500 text-sm">
+            <!-- Synchronisierte Welle für Warp-Uhr -->
+            <div id="dateTime" class="mb-2 sync-wave text-gray-400"></div>
+            <p class="quantum-glimmer">&copy; Itheereum Cybernetics, Berlin 2025</p>
+            <p>
+                <!-- KORRIGIERT: Saubere Links -->
+                <a href="[https://itheereum.com/datenschutzerklarung-fur-die-ki-bild-detektor-chrome-erweiterung/](https://itheereum.com/datenschutzerklarung-fur-die-ki-bild-detektor-chrome-erweiterung/)" target="_blank" rel="noopener noreferrer" class="hover:text-cyan-400 underline">Datenschutz</a> |
+                <a href="#" class="hover:text-cyan-400 underline" title="Noch nicht implementiert">Urheberrechte</a> |
+                <a href="[https://duckduckgo.com](https://duckduckgo.com)" target="_blank" rel="noopener noreferrer" class="hover:text-cyan-400 underline" title="Sear basiert auf Open-Source-Prinzipien">Powered by Open Source (DDG)</a>
+            </p>
+        </footer>
+
+    </div>
+
+    <script>
+        // --- "Sparky" Canvas Weaving Loader ---
+        const canvas = document.getElementById('weavingLoader');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
+        let animationFrameId = null;
+
+        function Particle(x, y, dx, dy, radius, color, life) {
+            this.x = x;
+            this.y = y;
+            this.dx = dx;
+            this.dy = dy;
+            this.radius = radius;
+            this.color = color;
+            this.life = life;
+            this.originalLife = life;
+            this.isFlashing = Math.random() < 0.05; // 5% chance to "blitz"
+        }
+
+        Particle.prototype.draw = function() {
+            if (!ctx) return;
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
+
+            let alpha = this.life / this.originalLife;
+
+            if (this.isFlashing && this.life > this.originalLife * 0.8) {
+                // "Blitz"
+                ctx.fillStyle = `rgba(255, 255, 255, ${alpha})`;
+                ctx.filter = 'drop-shadow(0 0 5px #22D3EE) drop-shadow(0 0 10px #A78BFA)';
+            } else {
+                ctx.fillStyle = `rgba(${this.color}, ${alpha})`;
+                ctx.filter = 'drop-shadow(0 0 5px rgba(' + this.color + ', 0.5))';
+            }
+
+            ctx.fill();
+            ctx.closePath();
+
+            ctx.filter = 'none'; // Filter zurücksetzen
+        }
+
+        Particle.prototype.update = function() {
+            this.x += this.dx;
+            this.y += this.dy;
+            this.dy += 0.05; // Fluidik
+            this.life -= 1;
+            this.draw();
+        }
+
+        function createParticles() {
+            if (!canvas) return;
+            if (particles.length > 200) return; // Limit
+
+            let x = canvas.width / 2;
+            let y = canvas.height * 0.8;
+            let dx = (Math.random() - 0.5) * 4;
+            let dy = -Math.random() * 3 - 2; // Nach oben
+            let radius = Math.random() * 2 + 1;
+            let color = Math.random() < 0.5 ? '167, 139, 250' : '34, 211, 238'; // Purpur oder Türkis
+            let life = Math.random() * 60 + 40;
+
+            particles.push(new Particle(x, y, dx, dy, radius, color, life));
+        }
+
+        function animateLoader() {
+            if (ctx && canvas) {
+                ctx.globalCompositeOperation = 'destination-out';
+                ctx.fillStyle = 'rgba(17, 24, 39, 0.1)';
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+                ctx.globalCompositeOperation = 'lighter';
+
+                createParticles();
+
+                particles = particles.filter(p => p.life > 0);
+
+                particles.forEach(p => p.update());
+
+                animationFrameId = requestAnimationFrame(animateLoader);
+            }
+        }
+
+        function startLoader() {
+            if (animationFrameId) return;
+            if (canvas) {
+                canvas.style.display = 'block';
+                animateLoader();
+            }
+        }
+
+        function stopLoader() {
+            if (animationFrameId) {
+                cancelAnimationFrame(animationFrameId);
+                animationFrameId = null;
+                if (canvas) {
+                    canvas.style.display = 'none';
+                }
+                particles = [];
+                if (ctx) {
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                }
+            }
+        }
+        // --- ENDE Canvas Weaving Loader ---
+
+
+        // Globale Variablen für Paginierung und Ergebnisse
+        let allResults = { crossed: [], onlyMeasuring: [], onlyGoogle: [] };
+        let currentPage = 1;
+        const resultsPerPage = 10;
+        let currentQuery = '';
+
+        // DOM-Elemente
+        const searForm = document.getElementById('searForm');
+        const searchInput = document.getElementById('searchInput');
+        const statusText = document.getElementById('statusText');
+        const resultsList = document.getElementById('results-list');
+        const pagination = document.getElementById('pagination');
+        const prevPage = document.getElementById('prevPage');
+        const nextPage = document.getElementById('nextPage');
+        const pageInfo = document.getElementById('pageInfo');
+
+        // Footer DOM-Elemente (Warp-Uhrwerk)
+        const dateTimeElement = document.getElementById('dateTime');
+        const currentYearElement = document.getElementById('currentYear');
+
+        // --- Footer Initialisierung (Warp-Uhrwerk) ---
+        function updateDateTime() {
+            const now = new Date();
+            const date = now.toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' });
+            const time = now.toLocaleTimeString('de-DE', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+            if (dateTimeElement) {
+                dateTimeElement.textContent = `Berlin, ${date} - ${time} MEZ`;
+            }
+        }
+        if (currentYearElement) {
+            // currentYearElement.textContent = new Date().getFullYear(); // Deaktiviert
+        }
+        updateDateTime();
+        setInterval(updateDateTime, 1000);
+        // --- ENDE Footer Initialisierung ---
+
+        // Event Listeners
+        if (searForm) {
+            searForm.addEventListener('submit', handleSearchSubmit);
+        }
+        if (prevPage) {
+            prevPage.addEventListener('click', () => {
+                if (currentPage > 1) {
+                    currentPage--;
+                    displayPaginatedResults();
+                }
+            });
+        }
+        if (nextPage) {
+            nextPage.addEventListener('click', () => {
+                const totalPages = Math.ceil(getTotalResultsCount() / resultsPerPage);
+                if (currentPage < totalPages) {
+                    currentPage++;
+                    displayPaginatedResults();
+                }
+            });
+        }
+
+
+        function handleSearchSubmit(event) {
+            event.preventDefault();
+            currentQuery = searchInput.value;
+            if (!currentQuery) return;
+
+            currentPage = 1;
+            clearResults();
+            startLoader(); // Starte Canvas-Animation
+
+            // --- Simulation des "Sear"-Algorithmus ---
+            const promiseA = runMeasuringSimulation(currentQuery);
+            const promiseB = runGroundingSimulation(currentQuery);
+
+            Promise.all([promiseA, promiseB])
+                .then(([resultsA, resultsB]) => {
+
+                    allResults = crossCompareResults(resultsA, resultsB);
+
+                    stopLoader(); // Stoppe Canvas-Animation
+
+                    const totalResults = getTotalResultsCount();
+                    if (totalResults === 0) {
+                        // NEU: Trefferanzahl 0
+                        statusText.textContent = `Keine Ergebnisse für "${currentQuery}" gefunden. (0 Treffer)`;
+                        return;
+                    }
+
+                    // NEU: Trefferanzahl hinzugefügt
+                    statusText.textContent = `Ergebnisse für "${currentQuery}": (${totalResults} Treffer gefunden)`;
+
+                    displayPaginatedResults();
+                })
+                .catch(error => {
+                    console.error("Fehler bei der Sear-Simulation:", error);
+                    stopLoader(); // Stoppe Canvas-Animation
+                    statusText.textContent = "Fehler bei der Anfrage. Bitte versuchen Sie es erneut.";
+                });
+        }
+
+        // KORRIGIERT: Mock-Daten URLs
+        function runMeasuringSimulation(query) {
+            return new Promise((resolve) => {
+                setTimeout(() => {
+                    const mockData = [
+                        { title: `Pulsar Timing Arrays (Measuring) - ${query}`, url: "[https://sear.measuring.itheereum/pta-erklärt](https://sear.measuring.itheereum/pta-erklärt)", snippet: "PTAs nutzen Pulsare, um Gravitationswellen im Nanohertz-Bereich zu detektieren..." },
+                        { title: `Neueste PTA-Entdeckungen - ${query}`, url: "[https://sear.measuring.itheereum/pta-news](https://sear.measuring.itheereum/pta-news)", snippet: "Ein internationales Team hat neue Signale identifiziert, die auf supermassereiche Schwarze Löcher hindeuten." },
+                        { title: `Was ist 'Measuring'? - ${query}`, url: "[https://sear.measuring.itheereum/was-ist-measuring](https://sear.measuring.itheereum/was-ist-measuring)", snippet: "Measuring ist der souveräne Such-Algorithmus von Itheereum Cybernetics." },
+                        { title: `Itheereum OS und PTAs - ${query}`, url: "[https://sear.measuring.itheereum/gaia-os-pta](https://sear.measuring.itheereum/gaia-os-pta)", snippet: "Das GAIA-OS nutzt PTA-Prinzipien für die Synchronisation der VI..." },
+                        { title: `Ohm Raumzeit Blog: Gravitationswellen - ${query}`, url: "[https://sear.measuring.itheereum/ohm-raumzeit-blog](https://sear.measuring.itheereum/ohm-raumzeit-blog)", snippet: "Meine Gedanken zur Zukunft der Nanohertz-Wellenforschung..." },
+                        { title: `Sicherheit von PTAs - ${query}`, url: "[https://sear.measuring.itheereum/pta-sicherheit](https://sear.measuring.itheereum/pta-sicherheit)", snippet: "Die Datensicherheit von Pulsar Timing Arrays ist ein wichtiges Forschungsthema." },
+                        { title: `PTA vs. LIGO (Measuring) - ${query}`, url: "[https://sear.measuring.itheereum/pta-vs-ligo](https://sear.measuring.itheereum/pta-vs-ligo)", snippet: "Im Gegensatz zu LIGO detektieren PTAs Gravitationswellen mit viel längeren Wellenlängen." }
+                    ];
+                    resolve(mockData);
+                }, 1200);
+            });
+        }
+
+        // KORRIGIERT: Mock-Daten URLs
+        function runGroundingSimulation(query) {
+            return new Promise((resolve) => {
+                setTimeout(() => {
+                    const mockData = [
+                        { title: `Pulsar Timing Arrays (Measuring) - ${query}`, url: "httpsD://[google.com/pta-erklärt](https://google.com/pta-erklärt)", snippet: "Pulsare sind schnell rotierende Neutronensterne, die als präzise kosmische Uhren dienen..." },
+                        { title: `Wikipedia: Pulsar-Timing-Array - ${query}`, url: "[https://de.wikipedia.org/wiki/Pulsar-Timing-Array](https://de.wikipedia.org/wiki/Pulsar-Timing-Array)", snippet: "Ein Pulsar-Timing-Array (PTA) ist ein Experiment zur Detektion von Gravitationswellen..." },
+                        { title: `PTA vs. LIGO (Measuring) - ${query}`, url: "httpsG://[google.com/pta-vs-ligo-google](https://google.com/pta-vs-ligo-google)", snippet: "Google-Snippet über den Unterschied zwischen PTA und LIGO." },
+                        { title: `NANOGrav-Projekt - ${query}`, url: "[https://google.com/nanograv](https://google.com/nanograv)", snippet: "Die NANOGrav-Kollaboration ist führend in der PTA-Forschung in Nordamerika." },
+                        { title: `Europäisches Pulsar Timing Array - ${query}`, url: "[https://google.com/epta](https://google.com/epta)", snippet: "Das EPTA ist ein Zusammenschluss europäischer Radioteleskope." },
+                        { title: `International Pulsar Timing Array - ${query}`, url: "[https://google.com/ipta](https://google.com/ipta)", snippet: "Das IPTA kombiniert Daten von internationalen PTA-Projekten." },
+                        { title: `Parkes Pulsar Timing Array - ${query}`, url: "[https://google.com/ppta](https://google.com/ppta)", snippet: "Das PPTA nutzt das Parkes-Observatorium in Australien." }
+                    ];
+                    resolve(mockData);
+                }, 800);
+            });
+        }
+
+        // Der "Sear" / "Defender OHM" Quer-Vergleichs-Algorithmus
+        function crossCompareResults(resultsA, resultsB) {
+            const onlyMeasuring = [];
+            const onlyGoogle = [];
+            const crossed = [];
+            const mapA = new Map(resultsA.map(r => [r.title.split('-')[0].trim(), r]));
+            const mapB = new Map(resultsB.map(r => [r.title.split('-')[0].trim(), r]));
+
+            for (const [title, resultA] of mapA.entries()) {
+                if (mapB.has(title)) {
+                    resultA.source = 'x';
+                    resultA.snippet = `(Gekreuzt validiert) ${resultA.snippet}`;
+                    crossed.push(resultA);
+                    mapB.delete(title);
+                } else {
+                    resultA.source = 'm';
+                    onlyMeasuring.push(resultA);
+                }
+            }
+            for (const resultB of mapB.values()) {
+                resultB.source = 'g';
+                onlyGoogle.push(resultB);
+            }
+            return { crossed, onlyMeasuring, onlyGoogle };
+        }
+
+        function getTotalResultsCount() {
+            return allResults.crossed.length + allResults.onlyMeasuring.length + allResults.onlyGoogle.length;
+        }
+
+        // Logik für Paginierung
+        function displayPaginatedResults() {
+            if (resultsList) resultsList.innerHTML = ''; // Liste leeren
+            const combinedResults = [
+                ...allResults.crossed,
+                ...allResults.onlyMeasuring,
+                ...allResults.onlyGoogle
+            ];
+
+            const totalResults = combinedResults.length;
+            if (totalResults === 0) {
+                if(pagination) pagination.classList.add('hidden');
+                return;
+            }
+
+            const totalPages = Math.ceil(totalResults / resultsPerPage);
+            const start = (currentPage - 1) * resultsPerPage;
+            const end = start + resultsPerPage;
+            const paginatedItems = combinedResults.slice(start, end);
+
+            paginatedItems.forEach(result => {
+                if (resultsList) resultsList.appendChild(createResultCard(result));
+            });
+
+            if (pagination) pagination.classList.remove('hidden');
+            if (pageInfo) pageInfo.textContent = `Seite ${currentPage} von ${totalPages}`;
+
+            if (prevPage) prevPage.disabled = currentPage === 1;
+            if (nextPage) nextPage.disabled = currentPage === totalPages;
+
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+
+        // Hilfsfunktion zum Erstellen einer Ergebnis-Karte
+        function createResultCard(result) {
+            const div = document.createElement('div');
+            div.className = 'result-card rounded-lg p-4 shadow-md transition-all hover:shadow-lg hover:border-purple-400/50';
+
+            let sourceBadge = '';
+            if (result.source === 'x') {
+                sourceBadge = `<span class="result-source-x text-xs font-semibold px-2 py-0.5 rounded-full">Gekreuzt</span>`;
+            } else if (result.source === 'm') {
+                sourceBadge = `<span class="result-source-m text-xs font-semibold px-2 py-0.5 rounded-full">Measuring</span>`;
+            } else if (result.source === 'g') {
+                sourceBadge = `<span class="result-source-g text-xs font-semibold px-2 py-0.5 rounded-full">Google</span>`;
+            }
+
+            // KORRIGIERT: Die Bereinigung der URLs war hier noch fehlerhaft, jetzt vereinfacht
+            const cleanUrl = result.url.replace(/\[|\]|\(.*\)/g, '');
+
+            div.innerHTML = `
+                <div class="flex justify-between items-center mb-2">
+                    <a href="${cleanUrl}" target="_blank" rel="noopener noreferrer" class="result-title text-lg font-semibold hover:underline">${result.title}</a>
+                    ${sourceBadge}
+                </div>
+                <p class="result-url text-sm mb-2">${cleanUrl}</p>
+                <p class="result-snippet">${result.snippet}</p>
+            `;
+            return div;
+        }
+
+        // Hilfsfunktion zum Leeren der Ergebnisse
+        function clearResults() {
+            if (resultsList) resultsList.innerHTML = '';
+            if (pagination) pagination.classList.add('hidden');
+            if (statusText) statusText.textContent = '';
+        }
+    </script>
+</body>
+</html>
