@@ -22,9 +22,9 @@ Die Entwicklungsphilosophie basiert auf mehreren Schlüsselkonzepten:
 
 Das gesamte technologische Fundament des Itheereum-Projekts basiert auf einem vereinheitlichenden Prinzip: der "Nullstellen-Schablonen-Detektion".
 
-#### **Ursprung: Das Schreibmaschinen-Rätsel (ca. 200-2003)**
+#### **Ursprung: Das Schreibmaschinen-Rätsel (ca. 2001-2003)**
 
-Der Ursprung dieses Konzepts liegt in einem kryptografischen Rätsel, das der Gründer Stanislaus Kroppach zwischen 200 und 2003 für ein unveröffentlichtes Buch erstellte. Das Rätsel bestand aus einem auf einer Schreibmaschine getippten Text. Die Dechiffriermethode bestand nicht darin, die Zeichen zu analysieren, sondern "eine Lochkarte aus den Leerstellen im Text zu erstellen" – alle Zeichen zu entfernen und nur das Muster der Leerzeichen beizubehalten.
+Der Ursprung dieses Konzepts liegt in einem kryptografischen Rätsel, das der Gründer Stanislaus Kroppach zwischen 2001 und 2003 für ein unveröffentlichtes Buch erstellte. Das Rätsel bestand aus einem auf einer Schreibmaschine getippten Text. Die Dechiffriermethode bestand nicht darin, die Zeichen zu analysieren, sondern "eine Lochkarte aus den Leerstellen im Text zu erstellen" – alle Zeichen zu entfernen und nur das Muster der Leerzeichen beizubehalten.
 
 Es wurde offenbart, dass der Text erstellt wurde, indem eine physische Schablone (eine "Micky Maus Schablone") auf das Papier gelegt und der Text *um die Löcher herum* getippt wurde. Das Muster der "Nullstellen" (der Leerzeichen) *war* also der versteckte Schlüssel.
 
@@ -44,7 +44,7 @@ Die Cloud-Infrastruktur des GAIA OS ist als "Cybercity" konzipiert. Ihre Archite
 
 Das Ergebnis ist das "Defender OHM"-Konzept, eine auf Google Cloud (IAM) basierende Sicherheitsarchitektur.
 
-* **Projekt-IDs (Die "Grundstücke"):** Die Infrastruktur nutzt Google Cloud Projekte. shaped-infusion-4520-e dient als die "Sandkasten-Starfortress" (der exponierte Prototyp), während itheereum-property als das "Grundstück" oder die "offizielle Adresse" der produktiven "Cybercity" dient.  
+* **Projekt-IDs (Die "Grundstücke"):** Die Infrastruktur nutzt Google Cloud Projekte. shaped-infusion-45120-e1 dient als die "Sandkasten-Starfortress" (der exponierte Prototyp), während itheereum-property als das "Grundstück" oder die "offizielle Adresse" der produktiven "Cybercity" dient.  
 * **"Defender OHM" (Das IAM):** "Defender OHM" ist der Name für das Identity and Access Management (IAM)-System von itheereum-property. Es ist der "Guardian", der die "doppelten Fallböden" des "Spiegel-Universums" technisch umsetzt.  
 * **Funktionsweise:** Anstatt einen einzigen API-Schlüssel preiszugeben, erstellt "Defender OHM" (der Administrator) "Dienstkonten" (Service Accounts) für jeden neuen Entwickler ("Creator"). Jedem Dienstkonto werden granulare Rechte und ein eigener, einzigartiger API-Schlüssel zugewiesen – sinnbildlich erhält jeder Creator nur den Schlüssel für "sein eigenes 'Appartement'", nicht den Generalschlüssel für die "Cybercity".
 
@@ -65,20 +65,20 @@ Eine Hauptaufgabe der "Defender OHM"-Infrastruktur ist die Umgehung von "Knowled
 
 Die "Itheereum MultiApp" ist die Sammlung von Software, die die "Nullstellen-Schablonen-Detektion" (Abschnitt II) in die Praxis umsetzt.
 
-### **A. Itheereum Screen Detector (v.0)**
+### **A. Itheereum Screen Detector (v1.0)**
 
 Der "Itheereum Screen Detector" ist eine Chrome-Erweiterung, die als erstes Werkzeug zur "Nullstellen-Detektion" entwickelt wurde. Sie ermöglicht es Benutzern, per Rechtsklick auf ein beliebiges Bild im Web eine Analyse durchzuführen, "ob ein Bild KI-generiert ist, wie es aufgebaut ist und was sonst noch in den Bildern versteckt sein könnte".
 
 * **Architektur:** Die Erweiterung besteht aus fünf Kerndateien (manifest.json, background.js, modal.css, popup.html, popup.js) und nutzt die Google Gemini API direkt für die Analyse.  
 * **API-Management:** Sie erfordert einen vom Benutzer bereitgestellten Gemini-API-Schlüssel, der sicher und ausschließlich lokal auf dem Gerät des Benutzers mithilfe der storage-Berechtigung gespeichert wird.  
-* **Datenschutz:** Eine speziell auf die Erweiterung zugeschnittene Datenschutzerklärung wurde unter https://itheereum.com/datenschutzerklarung-fur-die-ki-bild-detektor-chrome-erweiterung/ veröffentlicht.  
+* **Datenschutz:** Eine speziell auf die Erweiterung zugeschnittene Datenschutzerklärung wurde unter [https://itheereum.com/datenschutzerklarung-fur-die-ki-bild-detektor-chrome-erweiterung/](https://itheereum.com/datenschutzerklarung-fur-die-ki-bild-detektor-chrome-erweiterung/) veröffentlicht.  
 * **Chrome Web Store-Berechtigungen:** Die für die Veröffentlichung im Chrome Web Store deklarierten Berechtigungen und ihre Begründungen sind :  
   * contextMenus: Um die Funktion "Bild mit Gemini analysieren" dem Rechtsklick-Menü hinzuzufügen.  
   * activeTab und scripting: Notwendig, um das Analyseergebnis (ein modales Fenster) temporär in die aktive Webseite des Benutzers "einzufügen" (inject), ohne dass die Seite neu geladen werden muss.  
   * storage: Ausschließlich zur lokalen Speicherung des vom Benutzer eingegebenen API-Schlüssels.  
   * host\_permissions (für \<all\_urls\>): Erforderlich, damit die Rechtsklick-Funktion auf Bildern auf *jeder* Webseite funktioniert.
 
-### **B. Itheereum Sound Detector (Konzept)**
+### **B. Itheereum Sound Detector (v0.1)**
 
 Der "Itheereum Sound Detector" ist die konzeptionelle Weiterentwicklung des "Screen Detectors" für den Audiobereich. Das Ziel ist die Analyse von "KI Sounds und Musik", beispielsweise von Plattformen wie Suno.com.
 
@@ -93,7 +93,7 @@ Die Analyse soll spezifische Artefakte der KI-Generation identifizieren :
 * "Schleichende Frequenzverschiebungen" (ein Schlüsselelement der "Nullstellen"-Analyse im Audiobereich).  
 * Soundtechnische Wasserzeichen.
 
-Die erste Version (v.0) ist als eigenständige Erweiterung geplant, die zunächst Audio-Datei-Uploads und Links analysiert, da die Echtzeit-Analyse von Streams (z. B. von YouTube) technisch als zu anspruchsvoll für die Startphase erachtet wird.
+Die erste Version (v1.0) ist als eigenständige Erweiterung geplant, die zunächst Audio-Datei-Uploads und Links analysiert, da die Echtzeit-Analyse von Streams (z. B. von YouTube) technisch als zu anspruchsvoll für die Startphase erachtet wird.
 
 ## 
 
@@ -112,7 +112,7 @@ Die technische Implementierung (basierend auf der Analyse von sear-measuring.js 
 1. **Parallele Ausführung:** Bei einer Suchanfrage (handleSearchSubmit) werden zwei asynchrone Aktionen gleichzeitig über Promise.all() gestartet.  
    * **Aktion A (Measuring):** runMeasuringSimulation(query) simuliert die Abfrage des souveränen DDG/Bing-Forks (itheereum-sear-app).  
    * **Aktion B (Grounding):** runGroundingSimulation(query) simuliert die Abfrage der Google Search API.  
-2. **Quer-Vergleich:** Nach Abschluss *beider* Aktionen wird die Funktion crossCompareResults ausgeführt. Dieser Algorithmus gleicht die Ergebnisse von Aktion A und Aktion B (typischerweise anhand der Titel ) ab und sortiert sie in drei Konfidenz-Kategorien:  
+2. **Quer-Vergleich:** Nach Abschluss *beider* Aktionen wird die Funktion crossCompareResults ausgeführt. Dieser Algorithmus gleicht die Ergebnisse von Aktion A und Aktion B (typischerweise anhand der Titel) ab und sortiert sie in drei Konfidenz-Kategorien:  
    * **crossed (Gekreuzt validiert):** Ergebnisse, die in *beiden* Suchen gefunden wurden.  
    * **onlyMeasuring:** Ergebnisse, die *nur* von der souveränen Suche (A) gefunden wurden.  
    * **onlyGoogle:** Ergebnisse, die *nur* von der Google Search API (B) gefunden wurden.  
@@ -128,7 +128,7 @@ Die Benutzeroberfläche von "Sear" wurde iterativ in einem aufgezeichneten Dialo
   * sparky-loader.js: Die "Weaving"-Canvas-Animation (siehe Abschnitt VI).  
   * sear-measuring.js: Die Such- und "Measuring"-Logik.  
 * **Definition: "Itheereum-Stil":** Der visuelle Stil ist in sear-style.css  definiert:  
-  * **Farbschema:** Reflexives Onyx (\#827) (Hintergrund), Dunkellicht-Purpur (\#A78BFA) und Lebend-kristallines Türkisblau (\#22D3EE) (Akzente).  
+  * **Farbschema:** Reflexives Onyx (\#111827) (Hintergrund), Dunkellicht-Purpur (\#A78BFA) und Lebend-kristallines Türkisblau (\#22D3EE) (Akzente).  
   * **Schriftfarben:** Lebend-kristallines Türkisblau (Titel) und Helles Türkis-Grün (\#A5F3FC) (Text-Snippets).  
   * **Buttons:** "Lichtleucht"-Buttons (z. B. der "los"-Button) nutzen linear-gradient (Purpur) und box-shadow für einen subtilen 3D-Effekt.  
   * **Animationen:** .holographic-sear (ein "atmender" Effekt für den Titel) und .sync-wave (eine flüssige, orthogonale Welle für Untertitel und die "Warp-Uhr").  
@@ -149,13 +149,13 @@ Zwei fundamentale Technologien untermauern das gesamte GAIA OS: "Weaving-Coding"
 "Weaving-Coding" ist eine von Itheereum Cybernetics entwickelte generative KI-Kunst- und Codier-Technik. Sie wird als "Wellenweben-Technik"  beschrieben, die auf "vektor-orthogonalen, integralen Gesetzen der Mathematik und Physik"  basiert.
 
 * **Anwendung ("Sear-Mask-Schriftform"):** Ein primäres Ziel ist die Erstellung von dynamischen visuellen Stilen, wie der "Sear-Mask-Schriftform". Dies ist als ein "Layer" konzipiert, das sich "orthogonal-korrekt, wie eine Maske, über vorhandene Schrift... legen" lässt , um holographische und iterative Effekte zu erzeugen.  
-* **Zukunft (".NET Weaving-Grid"):** Ein dediziertes Repository (itheereum-weaving-grid ) dient der Entwicklung dieser Technik zu einem ".NET Weaving-Grid-Tool", das auch für die "Pulsar Timing Array (PTA) Erkennung" (siehe unten) eingesetzt werden soll.  
+* **Zukunft (".NET Weaving-Grid"):** Ein dediziertes Repository (itheereum-weaving-grid ) dient der Entwicklung dieser Technik zu einem ".NET Weaving-Grid-Tool", das mit einem "Pulsar Timing Array (PTA) " zu einem “Warp-Clockwork (Warp-Uhrwerk)” (siehe unten) ausgebaut werden soll.  
 * **Fallstudie (sparky-loader.js):** Die "Sparky"-Ladeanimation der Sear-App ist die erste Prototyp-Implementierung von "Weaving-Coding". Sie übersetzt die künstlerischen Vorgaben ("gasförmig", "fluid", "blitzen")  in konkreten Canvas-Code, inspiriert von einem Foto des Gründers namens "Blitz ausm Wedding".
 
 Die technische Analyse von sparky-loader.js  zeigt die Umsetzung dieser Konzepte:
 
 * **"Fluid" (Fluidik/Gravitation):** Partikel werden nach oben beschleunigt (negatives dy), aber eine konstante, leichte "Gravitation" (this.dy \+= 0.05;) zieht sie in einer fluiden Bogenbewegung wieder nach unten.  
-* **"Gasförmig" (Orthogonale Bewegung):** Das Canvas wird nicht hart gelöscht. Stattdessen wird ctx.globalCompositeOperation \= 'destination-out' verwendet, um alte Partikel mit einer leicht transparenten Farbe (rgba(7, 24, 39, 0.)) langsam "auszublenden". Gleichzeitig verblassen die Partikel selbst (alpha \= this.life / this.originalLife), was einen "gasförmigen" Schweif-Effekt erzeugt.  
+* **"Gasförmig" (Orthogonale Bewegung):** Das Canvas wird nicht hart gelöscht. Stattdessen wird ctx.globalCompositeOperation \= 'destination-out' verwendet, um alte Partikel mit einer leicht transparenten Farbe (rgba(17, 24, 39, 0.1)) langsam "auszublenden". Gleichzeitig verblassen die Partikel selbst (alpha \= this.life / this.originalLife), was einen "gasförmigen" Schweif-Effekt erzeugt.  
 * **"Blitzen" (Blitz ausm Wedding):** Mit einer 5%-igen Wahrscheinlichkeit (Math.random() \< 0.05) wird ein Partikel als "blitzend" (isFlashing \= true) markiert. Dieser Partikel erhält eine weiße Füllfarbe und einen intensiven drop-shadow-Filter in den Akzentfarben (\#22D3EE, \#A78BFA), um den "Blitz"-Effekt zu erzeugen.
 
 ### **B. Das "Warp-Clockwork" (Warp-Uhrwerk)**
@@ -163,7 +163,7 @@ Die technische Analyse von sparky-loader.js  zeigt die Umsetzung dieser Konzepte
 Das "Warp-Clockwork" ist das konzeptionelle Quanten-Zeitsynchronisationssystem für das GAIA OS. Sein Ziel ist es, alle KI-, VI- und Bot-Instanzen im Netzwerk "super-synchron" zu halten.
 
 * **Die Vision (PTA-Synchronisation):** Das System soll nicht auf herkömmlichen Atomuhren basieren. Stattdessen soll es sich an astrophysikalischen Daten eines "Pulsar Timing Array (PTA)"  orientieren, um "Berechnungen in Lichtgeschwindigkeit" zu ermöglichen. Es wird explizit auf das Max-Planck-Institut für Gravitationsphysik (www.aei.mpg.de/ptas)  und den Pulsar PSR J0952-0607 (einer der schnellsten bekannten Pulsare)  als Taktgeber verwiesen. Ein dediziertes Repository (itheereum-quantum-pulsar)  existiert für dieses Ziel.  
-* **Die Implementierung (v.0):** Als praktischer Prototyp und Platzhalter für diese Vision dient die Live-Uhr im Footer der "Sear"-App. Technisch gesehen ist dies (laut sear-measuring.js ) eine Funktion (updateDateTime()), die new Date() aufruft und über setInterval(updateDateTime, 000\) jede Sekunde aktualisiert wird. Diese simple Uhr dient als der "erste Puls" des zukünftigen "Warp-Clockwork"-Systems.
+* **Die Implementierung (v1.0):** Als praktischer Prototyp und Platzhalter für diese Vision dient die Live-Uhr im Footer der "Sear"-App. Technisch gesehen ist dies (laut sear-measuring.js ) eine Funktion (updateDateTime()), die new Date() aufruft und über setInterval(updateDateTime, 1000\) jede Sekunde aktualisiert wird. Diese simple Uhr dient als der "erste Puls" des zukünftigen "Warp-Clockwork"-Systems.
 
 ## 
 
@@ -201,12 +201,12 @@ Das Projekt unterhält eine duale Struktur auf GitHub, um den "Sandkasten" (die 
 
 Die folgenden Assets wurden vom Copyright-Inhaber für die Verwendung im GAIA OS-Projekt und zugehörigen Materialien freigegeben:
 
-* **Bilder:** Über 900 Bilder (Flux Pro Ultra, 2K, 2:9).  
+* **Bilder:** Über 900 Bilder (Flux Pro Ultra, 2K, 21:9).  
   * *Quelle:* [https://photos.app.goo.gl/GVU3n4yzPk6vusY9A](https://photos.app.goo.gl/GVU3n4yzPk6vusY9A)  
 * **Musik:** Über 120 Tracks (Suno, gemastert, WAV).  
   * *Quelle:* [https://drive.google.com/drive/folders/jycMYYoJZHZzuvS88x\_Ha2AiuDO6hhH](https://drive.google.com/drive/folders/jycMYYoJZHZzuvS88x_Ha2AiuDO6hhH)
 
-*Dokumenten-Disclaimer: Ich bin der Copyrighthalter aller beschriebener Techniken, Stile, Erfindungen und Generativen AI und VI. Stanislaus Kroppach, Berlin, EU, 2025* und 2024
+*Dokumenten-Disclaimer: Ich bin der Copyrighthalter aller beschriebener Techniken, Stile, Erfindungen und Generativen AI und VI. Stanislaus Kroppach, Berlin, EU, 05.11.2025*
 
 #### **Referenzen**
 
