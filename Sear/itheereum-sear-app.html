@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sear - Itheereum Measuring Search</title>
+
+  <link rel="stylesheet" href="sear-style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <main class="container">
+
+    <canvas id="sparky-loader-canvas"></canvas>
+
+    <h1 class="title-sear">Sear</h1>
+    <p class="subtitle">Itheereum Measuring Search</p>
+
+    <form class="sear-mount" id="sear-form">
+      <input
+        type="search"
+        id="search-input"
+        class="search-input"
+        placeholder="Das Universum durchsuchen..."
+      >
+      <button type="submit" class="bubble-button">los</button>
+    </form>
+
+    <div class="spacer-tabs">
+      <button class="tab active">Alle</button>
+      <button class="tab">Bilder</button>
+      <button class="tab">Musik</button>
+      <button class="tab">Dokumente</button>
+      <button class="tab">Hilfe</button>
+    </div>
+
+    <button class="transparency-toggle" id="transparency-toggle">
+      Suchvorgang zur Transparenz anzeigen
+    </button>
+    <pre id="transparency-log" style="display: none;"></pre>
+
+    <h3 class="results-count" id="results-count"></h3>
+    <div id="results-container">
+      </div>
+
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div id="warp-clock" class="sync-wave">Lädt Uhrwerk...</div>
+
+      <p>
+        <span class="quantum-glimmer">Itheereum Cybernetics, Berlin 2025</span>
+        <br>
+        <a href="https://itheereum.com/datenschutzerklarung-fur-die-ki-bild-detektor-chrome-erweiterung/" target="_blank">Datenschutz</a>
+        - Powered by Open Source (<a href="https://duckduckgo.com" target="_blank">DDG</a>)
+      </p>
+    </div>
+  </footer>
+
+  <script src="sparky-loader.js" defer></script>
+  <script src="sear-measuring.js" defer></script>
+
+</body>
+</html>
