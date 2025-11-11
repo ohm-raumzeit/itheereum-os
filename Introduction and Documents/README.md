@@ -3,9 +3,9 @@ Enthält Dokumente, Texte und Unterhaltung(en) mit und zur Arbeit von KI wie Gem
 Contains documents, text, and conversation(s) with and about the work of AI such as Gemini, Bard, Flux, Suno, and many more.
 
 
-01[¹] [Root Cause Analysis and Solution Architecture for Degenerative Repetition and Modular AI Development¹]
-02[²] [Itheereum GAIA OS, Technical Manifesto and Repository Documentation²]
-03[³] [Strategy for the implementation of the Sear app, Modular architecture, Measuring protocol and Sparky weaving visualization³]
+01[¹]. Root Cause Analysis and Solution Architecture for Degenerative Repetition and Modular AI Development[¹].  
+02[²]. [Itheereum GAIA OS, Technical Manifesto and Repository Documentation²].  
+03[³]. [Strategy for the implementation of the Sear app, Modular architecture, Measuring protocol and Sparky weaving visualization³].  
 
 [¹]: 01 Root Cause Analysis and Solution Architecture for Degenerative Repetition and Modular AI Development
 -
