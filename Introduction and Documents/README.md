@@ -3,9 +3,9 @@ Enthält Dokumente, Texte und Unterhaltung(en) mit und zur Arbeit von KI wie Gem
 Contains documents, text, and conversation(s) with and about the work of AI such as Gemini, Bard, Flux, Suno, and many more.
 
 
-01[1]. Root Cause Analysis and Solution Architecture for Degenerative Repetition and Modular AI Development[1].  
-02[2]. [Itheereum GAIA OS, Technical Manifesto and Repository Documentation2].  
-03[3]. [Strategy for the implementation of the Sear app, Modular architecture, Measuring protocol and Sparky weaving visualization3].  
+01 Root Cause Analysis and Solution Architecture for Degenerative Repetition and Modular AI Development  
+02 Itheereum GAIA OS, Technical Manifesto and Repository Documentation  
+03 [Strategy for the implementation of the Sear app, Modular architecture, Measuring protocol and Sparky weaving visualization](#03)  
 
 [1]: 01 Root Cause Analysis and Solution Architecture for Degenerative Repetition and Modular AI Development
 -
@@ -167,7 +167,7 @@ Contains documents, text, and conversation(s) with and about the work of AI such
 02 End.
 -
 
-[3]: 03 Strategy for the implementation of the Sear app, Modular architecture, Measuring protocol and Sparky weaving visualization, by Gemini Deep Research and Stanislaus Kroppach, Berlin (EU) 2025
+[##03] Strategy for the implementation of the Sear app, Modular architecture, Measuring protocol and Sparky weaving visualization, by Gemini Deep Research and Stanislaus Kroppach, Berlin (EU) 2025
 -
 *[Strategie zur Implementierung der Sear-App, Modulare Architektur, Measuring-Protokoll und Sparky-Weaving-Visualisierung]*(https://github.com/ohm-raumzeit/itheereum-os/blob/main/Introduction%20and%20Documents/03%20Strategie%20zur%20Implementierung%20der%20Sear-App%2C%20Modulare%20Architektur%2C%20Measuring-Protokoll%20und%20Sparky-Weaving-Visualisierung.pdf), *GERMAN, PDF, CODE, 29 pages*
 
