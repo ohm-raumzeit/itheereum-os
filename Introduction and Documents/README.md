@@ -2,9 +2,13 @@ Enthält Dokumente, Texte und Unterhaltung(en) mit und zur Arbeit von KI wie Gem
 
 Contains documents, text, and conversation(s) with and about the work of AI such as Gemini, Bard, Flux, Suno, and many more.
 
-01 Root Cause Analysis and Solution Architecture for Degenerative Repetition and Modular AI Development, by Gemini Deep Research and Stanislaus Kroppach, Berlin (EU) 2025
+01 Root Cause Analysis and Solution Architecture for Degenerative Repetition and Modular AI Development[¹]
+
+[¹]01 Root Cause Analysis and Solution Architecture for Degenerative Repetition and Modular AI Development
+[²]02 Itheereum GAIA OS, Technical Manifesto and Repository Documentation
+[³]03 Strategy for the implementation of the Sear app, Modular architecture, Measuring protocol and Sparky weaving visualization
 -
-*(https://github.com/ohm-raumzeit/itheereum-os/blob/main/Introduction%20and%20Documents/01%20Ursachenanalyse%20und%20L%C3%B6sungsarchitektur%20f%C3%BCr%20degenerative%20Repetition%20und%20modulare%20KI-Entwicklung%2C%20by%20Gemini%20and%20Stani.pdf, GERMAN, PDF, 26 pages)*
+*[Ursachenanalyse und Lösungsarchitektur für degenerative Repetition und modulare KI-Entwicklung](https://github.com/ohm-raumzeit/itheereum-os/blob/main/Introduction%20and%20Documents/01%20Ursachenanalyse%20und%20L%C3%B6sungsarchitektur%20f%C3%BCr%20degenerative%20Repetition%20und%20modulare%20KI-Entwicklung%2C%20by%20Gemini%20and%20Stani.pdf, GERMAN, PDF, 26 pages)*
 
 - Part I: Deconstructing Degenerative Repetition in Large Language Models
     - 1.1 The Anatomy of a Feedback Loop: Causal Factors and Internal Mechanisms
@@ -101,9 +105,9 @@ Contains documents, text, and conversation(s) with and about the work of AI such
 01 End.
 -
 
-02 Itheereum GAIA OS, Technical Manifesto and Repository Documentation, by Gemini and Stanislaus Kroppach, Berlin (EU) 2025
+[²]02 Itheereum GAIA OS, Technical Manifesto and Repository Documentation, by Gemini and Stanislaus Kroppach, Berlin (EU) 2025
 -
-*(https://github.com/ohm-raumzeit/itheereum-os/blob/main/Introduction%20and%20Documents/02%20Itheereum%20GAIA%20OS%2C%20Technisches%20Manifest%20und%20Repository-Dokumentation.pdf, GERMAN, PDF, LINKS, 10 pages)*
+*[Itheereum GAIA OS, Technisches Manifest und Repository-Dokumentation](https://github.com/ohm-raumzeit/itheereum-os/blob/main/Introduction%20and%20Documents/02%20Itheereum%20GAIA%20OS%2C%20Technisches%20Manifest%20und%20Repository-Dokumentation.pdf, GERMAN, PDF, LINKS, 10 pages)*
 
 - I. Introduction: The GAIA OS Vision
     - The "Sandbox" Approach
@@ -162,9 +166,9 @@ Contains documents, text, and conversation(s) with and about the work of AI such
 02 End.
 -
 
-03 Strategy for the implementation of the Sear app, Modular architecture, Measuring protocol and Sparky weaving visualization, by Gemini Deep Research and Stanislaus Kroppach, Berlin (EU) 2025
+[³]03 Strategy for the implementation of the Sear app, Modular architecture, Measuring protocol and Sparky weaving visualization, by Gemini Deep Research and Stanislaus Kroppach, Berlin (EU) 2025
 -
-*(https://github.com/ohm-raumzeit/itheereum-os/blob/main/Introduction%20and%20Documents/03%20Strategie%20zur%20Implementierung%20der%20Sear-App%2C%20Modulare%20Architektur%2C%20Measuring-Protokoll%20und%20Sparky-Weaving-Visualisierung.pdf, GERMAN, PDF, CODE, 29 pages)*
+*[Strategie zur Implementierung der Sear-App, Modulare Architektur, Measuring-Protokoll und Sparky-Weaving-Visualisierung](https://github.com/ohm-raumzeit/itheereum-os/blob/main/Introduction%20and%20Documents/03%20Strategie%20zur%20Implementierung%20der%20Sear-App%2C%20Modulare%20Architektur%2C%20Measuring-Protokoll%20und%20Sparky-Weaving-Visualisierung.pdf, GERMAN, PDF, CODE, 29 pages)*
 
 - Part I: Architecture Summary and Strategic Objectives
     - sear-style.css (The Style Module)
@@ -190,30 +194,30 @@ Contains documents, text, and conversation(s) with and about the work of AI such
       - Blitzen (The 'Blow Delivery')
     - 3.3. Full Source Code: sparky-loader.js
   
-Part IV: Module 3: The 'Measuring' Logic & The 'Warp Clockwork' (sear-measuring.js)
+- Part IV: Module 3: The 'Measuring' Logic & The 'Warp Clockwork' (sear-measuring.js)
     - 4.1. The 'Warp Clockwork' (PTA Synchronization)
     - 4.2. The 'Measuring' Protocol (Simulated Parallel Query)
-        - Action A (Measuring)
-        - Action B (Google Grounding)
+      - Action A (Measuring)
+      - Action B (Google Grounding)
     - 4.3. The 'Cross-Comparison' Algorithm
     - 4.4. UI Logic (Transparency & Status)
     - 4.5. Full source code: sear-measuring.js
 
-Part V: Module 4: The 'Sear' Portal Structure (itheereum-sear-app.html)
+- Part V: Module 4: The 'Sear' Portal Structure (itheereum-sear-app.html)
     - 5.1. Architectural linkage
-        - CSS
-        - JavaScript
+      - CSS
+      - JavaScript
     - 5.2. Semantic DOM Structure
-    - 5.3. Full source code: itheereum-sear-app.html
+    - Full source code: itheereum-sear-app.html
 
-Part VI: Integration Roadmap and Architectural Recommendations
+- Part VI: Integration Roadmap and Architectural Recommendations
     - 6.1. Implementation Guide (Homepage Integration)
     - 6.2. Next Steps: The Great Synthesis (Sear + Detector)
-        - Action A (Standard Analysis)
-        - Action B ('Zeroing' Analysis)
+      - Action A (Standard Analysis)
+      - Action B ('Zeroing' Analysis)
     - 6.3. Scaling the 'Cybercity' ('Defender OHM' & '.NET Weaving-Grid')
-        - From sear-measuring.js to 'Defender OHM'
-        - From sparky-loader.js to 'Warp Clockwork'
+      - From sear-measuring.js to 'Defender OHM'
+      - From sparky-loader.js to 'Warp Clockwork'
 
 03 End.
 -
