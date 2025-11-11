@@ -2,9 +2,9 @@ Enthält Dokumente, Texte und Unterhaltung(en) mit und zur Arbeit von KI wie Gem
 
 Contains documents, text, and conversation(s) with and about the work of AI such as Gemini, Bard, Flux, Suno, and many more.
 
-01 Technical Analysis Report: Root Cause Analysis and Solution Architecture for Degenerative Repetition and Modular AI Development, by Gemini Deep Research and Stanislaus Kroppach, Berlin (EU) 2025
+01 Root Cause Analysis and Solution Architecture for Degenerative Repetition and Modular AI Development, by Gemini Deep Research and Stanislaus Kroppach, Berlin (EU) 2025
 -
-*(GERMAN PDF ONLY)*
+*(https://github.com/ohm-raumzeit/itheereum-os/blob/main/Introduction%20and%20Documents/01%20Ursachenanalyse%20und%20L%C3%B6sungsarchitektur%20f%C3%BCr%20degenerative%20Repetition%20und%20modulare%20KI-Entwicklung%2C%20by%20Gemini%20and%20Stani.pdf, GERMAN, PDF, 22 p.)*
 
 - Part I: Deconstructing Degenerative Repetition in Large Language Models
     - 1.1 The Anatomy of a Feedback Loop: Causal Factors and Internal Mechanisms
@@ -98,7 +98,63 @@ Contains documents, text, and conversation(s) with and about the work of AI such
     - Establishment of a RAG-based project knowledge base (Retrieval-Augmented Generation)
     - Phase development of the image analysis extension
 
-- References
+02 Itheereum GAIA OS, Technical Manifesto and Repository Documentation, by Gemini and Stanislaus Kroppach, Berlin (EU) 2025
+-
+*(https://github.com/ohm-raumzeit/itheereum-os/blob/main/Introduction%20and%20Documents/02%20Itheereum%20GAIA%20OS%2C%20Technisches%20Manifest%20und%20Repository-Dokumentation.pdf, GERMAN, PDF, LINKS, 10 p.)*
+
+- I. Introduction: The GAIA OS Vision
+    - The "Sandbox" Approach
+    - The "Mirror Universe"
+    - The "Reasoning vs. Measuring" Paradigm
+
+- II. The Core Philosophy: Zero Template Detection
+    - Source: The Typewriter Puzzle (ca. 2001-2003)
+    - Application to Generative AI
+
+- III. System Architecture and Security: The Defender OHM Infrastructure
+    - Cloud infrastructure: "Cybercity"
+          - Project IDs (the "Properties")
+          - "Defender OHM" (The IAM)
+          - How it works
+    - Components of the architecture
+          - Architects (owners)
+          - Service agents (janitors)
+          - Core function: "Google Search Grounding"
+      
+- IV. The Itheereum MultiApp Suite: Applying the Core Philosophy
+    - A. Itheereum Screen Detector (v1.0)
+          - Architecture
+          - API Management
+          - Privacy
+          - Chrome Web Store Permissions
+    - B. Itheereum Sound Detector (v0.1)
+          - "Zero Template Detection"
+          - Forensic analysis
+      
+- V. The Flagship Module: Itheereum Sear and the "Measuring" Algorithm
+    - A. Architecture of the "Measuring" Algorithm
+          - Parallel execution
+          - Cross-comparison
+          - Representation
+    - B. The "Sear" frontend and the "Itheereum style"
+          - Modular Architecture
+          - Definition: "Itheereum Style"
+          - UI Concepts
+      
+- VI. Core Technologies: Weaving Coding and Warp Clockwork
+    - A. Weaving-Coding and "Sparky"
+          - Application ("Sear-Mask-Font Style")
+          - Future (".NET Weaving-Grid")
+          - Case Study (sparky-loader.js)
+          - "Fluid" (Fluidics/Gravity)
+          - "Gaseous" (Orthogonal Motion)
+          - "Blitzen" (Blitz aus dem Wedding)
+    - B. The "Warp Clockwork" *The "Pulsar-Timing-Array"*
+          - The vision (PTA synchronization)
+          - The implementation (v1.0)
+      
+- VII. Project Repository and Manifesto
+    - Links
 
 End.
 -
