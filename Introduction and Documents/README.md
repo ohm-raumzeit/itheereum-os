@@ -3,11 +3,11 @@ Enthält Dokumente, Texte und Unterhaltung(en) mit und zur Arbeit von KI wie Gem
 Contains documents, text, and conversation(s) with and about the work of AI such as Gemini, Bard, Flux, Suno, and many more.
 
 
-01[¹]. Root Cause Analysis and Solution Architecture for Degenerative Repetition and Modular AI Development[¹].  
-02[²]. [Itheereum GAIA OS, Technical Manifesto and Repository Documentation²].  
-03[³]. [Strategy for the implementation of the Sear app, Modular architecture, Measuring protocol and Sparky weaving visualization³].  
+01[1]. Root Cause Analysis and Solution Architecture for Degenerative Repetition and Modular AI Development[1].  
+02[2]. [Itheereum GAIA OS, Technical Manifesto and Repository Documentation2].  
+03[3]. [Strategy for the implementation of the Sear app, Modular architecture, Measuring protocol and Sparky weaving visualization3].  
 
-[¹]: 01 Root Cause Analysis and Solution Architecture for Degenerative Repetition and Modular AI Development
+[1]: 01 Root Cause Analysis and Solution Architecture for Degenerative Repetition and Modular AI Development
 -
 *[Ursachenanalyse und Lösungsarchitektur für degenerative Repetition und modulare KI-Entwicklung]*(https://github.com/ohm-raumzeit/itheereum-os/blob/main/Introduction%20and%20Documents/01%20Ursachenanalyse%20und%20L%C3%B6sungsarchitektur%20f%C3%BCr%20degenerative%20Repetition%20und%20modulare%20KI-Entwicklung%2C%20by%20Gemini%20and%20Stani.pdf), *GERMAN, PDF, 26 pages*
 
@@ -106,7 +106,7 @@ Contains documents, text, and conversation(s) with and about the work of AI such
 01 End.
 -
 
-[²]: 02 Itheereum GAIA OS, Technical Manifesto and Repository Documentation, by Gemini and Stanislaus Kroppach, Berlin (EU) 2025
+[2]: 02 Itheereum GAIA OS, Technical Manifesto and Repository Documentation, by Gemini and Stanislaus Kroppach, Berlin (EU) 2025
 -
 *[Itheereum GAIA OS, Technisches Manifest und Repository-Dokumentation]*(https://github.com/ohm-raumzeit/itheereum-os/blob/main/Introduction%20and%20Documents/02%20Itheereum%20GAIA%20OS%2C%20Technisches%20Manifest%20und%20Repository-Dokumentation.pdf), *GERMAN, PDF, LINKS, 10 pages*
 
@@ -167,7 +167,7 @@ Contains documents, text, and conversation(s) with and about the work of AI such
 02 End.
 -
 
-[³]: 03 Strategy for the implementation of the Sear app, Modular architecture, Measuring protocol and Sparky weaving visualization, by Gemini Deep Research and Stanislaus Kroppach, Berlin (EU) 2025
+[3]: 03 Strategy for the implementation of the Sear app, Modular architecture, Measuring protocol and Sparky weaving visualization, by Gemini Deep Research and Stanislaus Kroppach, Berlin (EU) 2025
 -
 *[Strategie zur Implementierung der Sear-App, Modulare Architektur, Measuring-Protokoll und Sparky-Weaving-Visualisierung]*(https://github.com/ohm-raumzeit/itheereum-os/blob/main/Introduction%20and%20Documents/03%20Strategie%20zur%20Implementierung%20der%20Sear-App%2C%20Modulare%20Architektur%2C%20Measuring-Protokoll%20und%20Sparky-Weaving-Visualisierung.pdf), *GERMAN, PDF, CODE, 29 pages*
 
